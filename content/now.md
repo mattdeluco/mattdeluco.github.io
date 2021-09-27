@@ -4,8 +4,6 @@ date: 2021-05-16T22:44:20-04:00
 hideComments: true
 hideSuggestions: true
 hideTweetButton: true
-draft: true
-foo: snarf
 ---
 
 ## Career

@@ -4,7 +4,6 @@ date: 2021-03-15T21:45:11-04:00
 hideComments: true
 hideSuggestions: true
 hideTweetButton: true
-draft: true
 ---
 
 My current role is Manager, Engineering at [Connected](https://www.connected.io).

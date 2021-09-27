@@ -5,7 +5,6 @@ hideMetadata: true
 hideComments: true
 hideSuggestions: true
 hideTweetButton: true
-draft: true
 ---
 
 Loving husband and father, skier, cyclist, software engineering (manager)
