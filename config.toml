@@ -1,0 +1,100 @@
+theme = "bento"
+languageCode = "en-ca"
+baseurl = "https://delu.co/"
+title = "Matt DeLuco"
+
+author = "Leonardo Faria"
+copyright = "MIT"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+# Better code higlighting
+# via https://discourse.gohugo.io/t/pygmentscodefences-how-to-choose-themes/3842/3
+pygmentsCodefences = true
+pygmentsStyle = "vs"
+
+# Integrations
+googleAnalytics = "G-RXHWZWR07C"
+#disqusShortname = "bento-hugo-theme"
+
+# Hightlight theme
+[markup.highlight]
+  style = "github"
+
+# Allow HTML rendering inside markdown
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  # Show intro in the home page (with headline and description)
+  intro = true
+  headline = "Hi, I'm Matt."
+  description = "👨‍👩‍👦  ⛷   🚴  🚵🏼  👨🏻‍💻 🇨🇦 " 
+
+  # Copyright note in the footer
+  copyright = "Copyright © 2021 Matt DeLuco"
+
+  # Image in the homepage. You can setup a different image for social media
+  cover = "images/IMG_4148.jpeg"
+  ogImage = "images/ogimage.jpg"
+
+  # Social media usernames
+  github = "mattdeluco"
+  stackoverflow = "255008"
+  twitter = "MattDeLuco"
+  linkedin = "mattdeluco"
+  email = "matt@deluco.net"
+  rss = false
+
+  # Learn more about webmention
+  # https://sebastiandedeyne.com/adding-webmentions-to-my-blog/
+  # webmention = ""
+  # productionBaseUrl is need if you want to receive webmentions in local environment
+  # productionBaseUrl = "https://delu.co"
+
+  # Avatar (shown in the homepage)
+  avatar = "images/avatar.jpg"
+  # Bio is shown in the end of posts
+  authorBio = "Matt DeLuco has a B.Sc. in Computer Science (MCL) and broad interests in Software Engineering, working with his hands, and most mechanical things."
+
+# If you want to use fathom (https://usefathom.com) for analytics, add this section
+[params.fathomAnalytics]
+  #siteID = "XXXXX"
+  # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
+  #serverURL = "analytics.example.com"
+
+# If you want to use umami (https://umami.is/) for analytics, add this section
+[params.umami]
+  #siteID = "XXXXX"
+  #trackerScript = "//umami.example.com/umami.js"
+
+# Items in the top menu
+[menu]
+  [[menu.main]]
+      name = "Now"
+      url = "/now"
+      weight = 1
+  [[menu.main]]
+      name = "Career"
+      url = "/career"
+      weight = 2
+  [[menu.main]]
+      name = "Projects"
+      url = "/projects"
+      weight = 3
+  [[menu.main]]
+      name = "About"
+      url = "/about"
+      weight = 4
+
+#  [[menu.main]]
+#      name = "Archives"
+#      url = "/archives"
+#      weight = 1
+#
+#  [[menu.main]]
+#      name = "Source code"
+#      url = "https://github.com/leonardofaria/bento"
+#      weight = 1
