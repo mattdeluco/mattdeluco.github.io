@@ -88,13 +88,3 @@ googleAnalytics = "G-RXHWZWR07C"
       name = "About"
       url = "/about"
       weight = 4
-
-#  [[menu.main]]
-#      name = "Archives"
-#      url = "/archives"
-#      weight = 1
-#
-#  [[menu.main]]
-#      name = "Source code"
-#      url = "https://github.com/leonardofaria/bento"
-#      weight = 1
