@@ -6,7 +6,7 @@
       <header class="text-center pt-10 pb-6">
         <small class="text-center text-sm">
           <time class="text-gray-500" datetime="{{ dateFormat "2006-01-02T15:04:05-07:00" (default .Date (.PublishDate)) }}">
-            {{ dateFormat "2006-01-02T15:04:05-07:00" (default .Date (.PublishDate)) }}
+            {{ dateFormat "January 2, 2006" (default .Date (.PublishDate)) }}
           </time>
   
           {{ range (.GetTerms "tags") }}
