@@ -36,6 +36,20 @@ abstract the underlying model. This API would accept JSON as input and return JS
 little intervention from the backend (session management and adding auth info to the SQL API payload.)
 
 ### SQL API
+I don't recall from where this idea originated, but I wanted to try building a database with a "native API" -
+which is to say, an API to the database on the database built with sql and the included procedural language.
+This is [not a new](https://sive.rs/pg) or [original idea](https://twitter.com/adamhjk/status/1440406931080843271?s=21).
+
+I believe strongly that a database should be designed with data integrity in mind, and one of the means of
+maintaining integrity is to define the ways in which it is possible to interact with the database. It
+should not be necessary to rebuild this API in each client that wishes to interact with the database.
+
+Further, with the [advent of JSON](https://www.postgresql.org/docs/13/datatype-json.html) [in PostgreSQL](https://www.postgresql.org/docs/13/functions-json.html)
+I thought it would be novel to create a typical CRUD API with JSON inputs and outputs, similar to a REST
+API. The backend webserver then becomes an HTTP proxy to the database, responsible for session management
+but otherwise passing JSON (i.e. *data*) from the frontend directly to the database.
+
+There are five schemas in the database each with at least the four basic CRUD operations.
 
 ## Backend
 - Nodejs
