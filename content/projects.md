@@ -35,8 +35,16 @@ with an added feature: an API to the database, written natively in the database 
 abstract the underlying model. This API would accept JSON as input and return JSON as output and requires
 little intervention from the backend (session management and adding auth info to the SQL API payload.)
 
+The example below is the double-entry version of the example above (in the database, some normalization
+takes place.) A credit is applied to increase the liability account (VISA) while a debit is applied to
+increase the expense account (Dining/Coffee):
+```
+Tue, Apr 29, 2014 | Starbucks | $2.78 | CR | VISA   |
+Tue, Apr 29, 2014 | Starbucks | $2.78 | DR | Dining | Coffee
+```
+
 ### SQL API
-I don't recall from where this idea originated, but I wanted to try building a database with a "native API" -
+I don't recall from where I got this idea, but I wanted to try building a database with a "native API" -
 which is to say, an API to the database on the database built with sql and the included procedural language.
 This is [not a new](https://sive.rs/pg) or [original idea](https://twitter.com/adamhjk/status/1440406931080843271?s=21).
 
@@ -49,7 +57,9 @@ I thought it would be novel to create a typical CRUD API with JSON inputs and ou
 API. The backend webserver then becomes an HTTP proxy to the database, responsible for session management
 but otherwise passing JSON (i.e. *data*) from the frontend directly to the database.
 
-There are five schemas in the database each with at least the four basic CRUD operations.
+There are five schemas in the database each with at least the four basic CRUD operations. These are written
+in a combination of sql and plpgsql functions, many using Common Table Expressions (CTEs) to query the JSON
+and do one or more actions as a result (e.g. INSERT or UPDATE.)
 
 ## Backend
 - Nodejs
