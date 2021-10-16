@@ -3,8 +3,8 @@ languageCode = "en-ca"
 baseurl = "https://delu.co/"
 title = "Matt DeLuco"
 
-author = "Leonardo Faria"
-copyright = "MIT"
+author = "Matt DeLuco"
+copyright = "Unlicensed"
 
 [taxonomies]
 category = "categories"
@@ -57,7 +57,7 @@ googleAnalytics = "G-RXHWZWR07C"
   # Avatar (shown in the homepage)
   avatar = "images/avatar.jpg"
   # Bio is shown in the end of posts
-  authorBio = "Matt DeLuco has a B.Sc. in Computer Science (MCL) and broad interests in Software Engineering, working with his hands, and most mechanical things."
+  authorBio = "Matt DeLuco has a B.Sc. in Computer Science (Magna Cum Laude) and broad interests in Software Engineering, working with his hands, and most mechanical things."
 
 # If you want to use fathom (https://usefathom.com) for analytics, add this section
 [params.fathomAnalytics]
