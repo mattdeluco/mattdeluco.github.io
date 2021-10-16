@@ -1,4 +1,109 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Matt DeLuco</title><link>https://delu.co/</link><description>Recent content on Matt DeLuco</description><generator>Hugo -- gohugo.io</generator><language>en-ca</language><copyright>MIT</copyright><atom:link href="https://delu.co/index.xml" rel="self" type="application/rss+xml"/><item><title>What I'm Doing Now</title><link>https://delu.co/now/</link><pubDate>Sun, 16 May 2021 22:44:20 -0400</pubDate><guid>https://delu.co/now/</guid><description>&lt;h2 id="career">Career&lt;/h2>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Matt DeLuco</title><link>https://delu.co/</link><description>Recent content on Matt DeLuco</description><generator>Hugo -- gohugo.io</generator><language>en-ca</language><copyright>Unlicensed</copyright><atom:link href="https://delu.co/index.xml" rel="self" type="application/rss+xml"/><item><title>Projects</title><link>https://delu.co/projects/</link><pubDate>Fri, 08 Oct 2021 08:38:00 -0400</pubDate><guid>https://delu.co/projects/</guid><description>&lt;p>🚧 Personal Financial Planning SaaS Project 🚧&lt;/p>
+&lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">🚧 Personal Financial Planning SaaS Project 🚧&lt;br>&lt;br>This project started with a spreadsheet Christmas 2011. I have 11 years of meticulously organized personal financial data; excel just doesn&amp;#39;t cut it anymore.&lt;br>&lt;br>This isn&amp;#39;t the first such app, probably not the last, but it&amp;#39;s mine. 👇&lt;/p>&amp;mdash; Matt DeLuco (@MattDeLuco) &lt;a href="https://twitter.com/MattDeLuco/status/1381814633951072257?ref_src=twsrc%5Etfw">April 13, 2021&lt;/a>&lt;/blockquote>
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;p>Follow me and my long-lived &lt;a href="https://twitter.com/MattDeLuco/status/1381814633951072257">Twitter Thread&lt;/a>
+where I post updates to the project as they happen!&lt;/p>
+&lt;h2 id="database">Database&lt;/h2>
+&lt;ul>
+&lt;li>PostgreSQL&lt;/li>
+&lt;li>Heavy on: normalization, triggers, sql and pl/pgsql functions&lt;/li>
+&lt;/ul>
+&lt;p>The primary focus of this project is the database - after all, I believe data &lt;em>is&lt;/em> the application.&lt;/p>
+&lt;p>Having forgotten my high school accounting education, my original personal finances spreadsheet was
+an approximation of double entry accounting. Each line in the transactions table consisted of a bank
+account, a category, and optionally a sub-category - each of these could be considered a &amp;ldquo;T account&amp;rdquo;.
+Where I diverged from double-entry accounting is that each transaction was represented only by a single
+entry - one line recording both debits and credits:&lt;/p>
+&lt;p>&lt;code>Tue, Apr 29, 2014 | VISA | Starbucks | ($2.78) | Dining | Coffee&lt;/code>&lt;/p>
+&lt;p>When it came time to formalize my implementation (build this app) I rediscovered double entry accounting
+as a means of categorizing transactions. And so I set out to model double entry accounting in PostgreSQL,
+with an added feature: an API to the database, written natively in the database using PL/PGSQL, to
+abstract the underlying model. This API would accept JSON as input and return JSON as output and requires
+little intervention from the backend (session management and adding auth info to the SQL API payload.)&lt;/p>
+&lt;p>The example below is the double-entry version of the example above (in the database, some normalization
+takes place.) A credit is applied to increase the liability account (VISA) while a debit is applied to
+increase the expense account (Dining/Coffee):&lt;/p>
+&lt;pre tabindex="0">&lt;code>Tue, Apr 29, 2014 | Starbucks | $2.78 | CR | VISA |
+Tue, Apr 29, 2014 | Starbucks | $2.78 | DR | Dining | Coffee
+&lt;/code>&lt;/pre>&lt;h3 id="sql-api">SQL API&lt;/h3>
+&lt;p>I don&amp;rsquo;t recall from where I got this idea, but I wanted to try building a database with a &amp;ldquo;native API&amp;rdquo; -
+which is to say, an API to the database on the database built with sql and the included procedural language.
+This is &lt;a href="https://sive.rs/pg">not a new&lt;/a> or &lt;a href="https://twitter.com/adamhjk/status/1440406931080843271?s=21">original idea&lt;/a>.&lt;/p>
+&lt;p>I believe strongly that a database should be designed with data integrity in mind, and one of the means of
+maintaining integrity is to define the ways in which it is possible to interact with the database. It
+should not be necessary to rebuild this API in each client that wishes to interact with the database.&lt;/p>
+&lt;p>Further, with the &lt;a href="https://www.postgresql.org/docs/13/datatype-json.html">advent of JSON&lt;/a> &lt;a href="https://www.postgresql.org/docs/13/functions-json.html">in PostgreSQL&lt;/a>
+I thought it would be novel to create a typical CRUD API with JSON inputs and outputs, similar to a REST
+API. The backend webserver then becomes an HTTP proxy to the database, responsible for session management
+but otherwise passing JSON (i.e. &lt;em>data&lt;/em>) from the frontend directly to the database.&lt;/p>
+&lt;p>There are five schemas in the database each with at least the four basic CRUD operations. These are written
+in a combination of sql and plpgsql functions, many using Common Table Expressions (CTEs) to query the JSON
+and do one or more actions as a result (e.g. INSERT or UPDATE.)&lt;/p>
+&lt;h4 id="json">JSON&lt;/h4>
+&lt;p>The following is a small example of how JSON is used in this database - a function that updates a journal entry:&lt;/p>
+&lt;pre tabindex="0">&lt;code>CREATE OR REPLACE FUNCTION journal.update_journal(in_json JSON)
+RETURNS JSON
+AS $$
+WITH results AS (
+UPDATE journal.journal j SET
+transaction_date=x.transaction_date,
+posted_date=x.posted_date,
+description=x.description
+FROM json_populate_recordset(null::journal.journal, in_json-&amp;gt;'data') as x
+WHERE
+j.client_id = (in_json#&amp;gt;&amp;gt;'{context, client_id}')::BIGINT
+AND j.id = x.id
+RETURNING j.id
+) SELECT json_agg(r) FROM results r;
+$$ LANGUAGE sql;
+&lt;/code>&lt;/pre>&lt;p>Taking advantage of Postgres' &lt;a href="https://www.postgresql.org/docs/13/functions-json.html">JSON Functions and Operators&lt;/a>
+it&amp;rsquo;s possible to reference various properties of the JSON input. For example, &lt;code>in_json#&amp;gt;&amp;gt;'{context, client_id}'&lt;/code> extracts
+a value from this structure:&lt;/p>
+&lt;pre tabindex="0">&lt;code>{
+&amp;quot;context&amp;quot;: {
+&amp;quot;client_id&amp;quot;: 1234
+},
+&amp;quot;data&amp;quot;: [...]
+}
+&lt;/code>&lt;/pre>&lt;p>While &lt;code>json_populate_recordset(null::journal.journal, in_json-&amp;gt;'data')&lt;/code> expands the data array
+property into a set of rows whose type is that of the journal schema&amp;rsquo;s journal table (so matching
+the column types to the corresponding JSON properties for each array element.)&lt;/p>
+&lt;h3 id="pgtap">pgtap&lt;/h3>
+&lt;p>One of the absolute best tools for developing a database, &lt;a href="https://pgtap.org">pgtap.org&lt;/a> by
+&lt;a href="https://twitter.com/theory">David E. Wheeler&lt;/a> is a tool for unit testing databases. It is
+used extensively throughout this project to validate the functionality of the API described
+earlier with 16 test suites and over 150 unit tests.&lt;/p>
+&lt;p>The following is an example of the test output for a suite that verifies the functionality of
+the &lt;code>journal.add_split()&lt;/code> API:&lt;/p>
+&lt;pre tabindex="0">&lt;code> # Subtest: tests.test_journal_split_transaction()
+ok 1 - Create split transaction - groceries/household from chequing
+ok 2 - Create split transaction - groceries/household from chequing/visa
+1..2
+ok 16 - tests.test_journal_split_transaction
+&lt;/code>&lt;/pre>&lt;h3 id="sqitch">sqitch&lt;/h3>
+&lt;p>From the same author as pgtap is &lt;a href="http://sqitch.org">sqitch.org&lt;/a>:&lt;/p>
+&lt;blockquote>
+&lt;p>Sensible database-native change management for framework-free development and dependable deployment.&lt;/p>
+&lt;/blockquote>
+&lt;p>Sqitch provides tools to help manage database migrations, it is a relatively new tool for
+this project, but the project has been fully &amp;ldquo;ported&amp;rdquo; to the tool.&lt;/p>
+&lt;h2 id="backend">Backend&lt;/h2>
+&lt;ul>
+&lt;li>Nodejs&lt;/li>
+&lt;li>TODO&lt;/li>
+&lt;/ul>
+&lt;h2 id="frontend">Frontend&lt;/h2>
+&lt;ul>
+&lt;li>Vuejs&lt;/li>
+&lt;li>TODO&lt;/li>
+&lt;/ul>
+&lt;h2 id="competition">Competition&lt;/h2>
+&lt;p>The following are a list of similar applications to serve as reference and inspiration.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://mint.intuit.com">Mint.com&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://billi.app">Billi&lt;/a> 🇨🇦&lt;/li>
+&lt;li>&lt;a href="https://lunchmoney.app">Lunch Money&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>What I'm Doing Now</title><link>https://delu.co/now/</link><pubDate>Sun, 16 May 2021 22:44:20 -0400</pubDate><guid>https://delu.co/now/</guid><description>&lt;h2 id="career">Career&lt;/h2>
 &lt;p>I work at &lt;a href="https://connected.io">Connected&lt;/a> as an Engineering Manager with four great reports.&lt;/p>
 &lt;p>My current allocation is leading a web and mobile Engineering team of 8 on a very challenging project in the hospitality industry:&lt;/p>
 &lt;ul>
@@ -146,4 +251,8 @@ Now it&amp;rsquo;s just another means of staying fit.&lt;/p>
 &lt;p>As a recreational skiier I try to occasionally find my way out west to bigger
 mountains. While I love being up to my eyeballs shreddin' the gnar, timing
 weather is impossible, so I find great pleasure in carving high-speed turns on
-nice corduroy.&lt;/p></description></item></channel></rss>
+nice corduroy.&lt;/p>
+&lt;ul>
+&lt;li>Former FIS Northern Ontario Division (NOD) alpine racer&lt;/li>
+&lt;li>Current member of the &lt;a href="https://ntsc.ca">North Toronto Ski Club&lt;/a> (NTSC)&lt;/li>
+&lt;/ul></description></item></channel></rss>
