@@ -78,3 +78,6 @@ As a recreational skiier I try to occasionally find my way out west to bigger
 mountains. While I love being up to my eyeballs shreddin' the gnar, timing
 weather is impossible, so I find great pleasure in carving high-speed turns on
 nice corduroy.
+
+- Former FIS Northern Ontario Division (NOD) alpine racer
+- Current member of the [North Toronto Ski Club](https://ntsc.ca) (NTSC)
