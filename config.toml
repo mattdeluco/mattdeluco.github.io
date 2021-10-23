@@ -15,10 +15,6 @@ tag = "tags"
 pygmentsCodefences = true
 pygmentsStyle = "vs"
 
-# Integrations
-googleAnalytics = "G-RXHWZWR07C"
-#disqusShortname = "bento-hugo-theme"
-
 # Hightlight theme
 [markup.highlight]
   style = "github"
@@ -59,6 +55,10 @@ googleAnalytics = "G-RXHWZWR07C"
   avatar = "images/avatar.jpg"
   # Bio is shown in the end of posts
   authorBio = "Matt DeLuco has a B.Sc. in Computer Science (Magna Cum Laude) and broad interests in Software Engineering, working with his hands, and varieties of skiing and cycling."
+
+  # Integrations
+  googleAnalyticsGA4 = "G-1RF1DE0RP0"
+  #disqusShortname = "bento-hugo-theme"
 
 # If you want to use fathom (https://usefathom.com) for analytics, add this section
 [params.fathomAnalytics]
