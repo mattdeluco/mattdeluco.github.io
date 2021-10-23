@@ -1,0 +1,35 @@
+{{ if .IsPage }}
+    {{ with .Params.ogImage }}
+        <!-- Twitter summary card with large image must be at least 280x150px -->
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:image" content="{{ .  | relURL }}"/>
+    {{ else }}
+        <meta name="twitter:card" content="summary"/>
+    {{ end }}
+{{ else }}
+    <meta name="twitter:card" content="summary"/>
+    {{ with .Site.Params.twittercardimage }}
+        <meta name="twitter:image" content="{{ . | relURL }}"/>
+    {{ end }}
+{{ end }}
+
+<!-- Twitter Card data -->
+<meta name="twitter:title" content="{{ if .IsPage }}{{ .Title }} &middot; {{ end }}{{ .Site.Title }}"/>
+<meta name="twitter:description" content="{{ if .IsPage }}{{ .Description | default .Site.Params.authorBio }}{{ else }}{{ .Site.Params.authorBio }}{{ end }}"/>
+<meta name="twitter:site" content="@{{ .Site.Params.twitter }}"/>
+
+<!-- Reading Time -->
+<meta name="twitter:label1" value="Reading time" />
+{{ if eq 1 .ReadingTime }}
+    <meta name="twitter:data1" value="{{ .ReadingTime }} minute" />
+{{ else }}
+    <meta name="twitter:data1" value="{{ .ReadingTime }} minutes" />
+{{ end }}
+
+<!-- Publishing Data -->
+<meta name="twitter:label2" value="Published" />
+<meta name="twitter:data2" value="{{ dateFormat "January 2, 2006" (default .Date (.PublishDate)) }}" />
+
+{{ with.Params.twitter }}
+    <meta name="twitter:creator" content="{{ . }}" />
+{{ end }}

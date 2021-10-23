@@ -39,6 +39,7 @@ googleAnalytics = "G-RXHWZWR07C"
   # Image in the homepage. You can setup a different image for social media
   cover = "images/IMG_4148.jpeg"
   ogImage = "images/ogimage.jpg"
+  twittercardimage = "images/IMG_8068.png"
 
   # Social media usernames
   github = "mattdeluco"
@@ -57,7 +58,7 @@ googleAnalytics = "G-RXHWZWR07C"
   # Avatar (shown in the homepage)
   avatar = "images/avatar.jpg"
   # Bio is shown in the end of posts
-  authorBio = "Matt DeLuco has a B.Sc. in Computer Science (Magna Cum Laude) and broad interests in Software Engineering, working with his hands, and most mechanical things."
+  authorBio = "Matt DeLuco has a B.Sc. in Computer Science (Magna Cum Laude) and broad interests in Software Engineering, working with his hands, and varieties of skiing and cycling."
 
 # If you want to use fathom (https://usefathom.com) for analytics, add this section
 [params.fathomAnalytics]
