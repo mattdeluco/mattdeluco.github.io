@@ -122,6 +122,7 @@ System software from developer Apple Inc. has been updated
 approve a system extension (kext, or kernel extension) in the
 Security & Privacy preferences panel. I could not recall what, if any,
 software I had recently updated and was immediately suspicious.</p>
+<p><img src=/images/macOs-system-software/combined.png alt="System Extension Updated dialogue box and System Settings for Security and Privacy"></p>
 <p>It was difficult to pin down any information since the kext was not
 specified in the pop-up or the preferences panel. I <a href=https://discussions.apple.com/thread/252404518>found one post on Apple Discussions</a>
 that introduced me to the <code>kmutil</code> program:</p>
@@ -138,7 +139,7 @@ that introduced me to the <code>kmutil</code> program:</p>
 </ul>
 <p>&ldquo;Remote Virtual Interface&rdquo; seems to be a tool used for <a href=https://developer.apple.com/documentation/network/recording_a_packet_trace>Recording a Packet Trace</a> - I believe typically used while developing iOS apps.</p>
 <p>I <a href=https://apple.stackexchange.com/a/155168/178626>tracked down a second tool</a>, <code>codesign</code>, that can
-authenticate the kext. If <code>codesign</code> returns 0 status (i.e. success) the kext is valid:</p>
+authenticate the kext. If <code>codesign</code> returns <code>0</code> status (i.e. success) the kext is valid:</p>
 <pre tabindex=0><code>❯ codesign -d --verbose=4 /Library/Apple/System/Library/Extensions/RemoteVirtualInterface.kext
 Executable=/Library/Apple/System/Library/Extensions/RemoteVirtualInterface.kext/Contents/MacOS/RemoteVirtualInterface
 Identifier=com.apple.nke.rvi

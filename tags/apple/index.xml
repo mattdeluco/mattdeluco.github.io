@@ -2,6 +2,7 @@
 approve a system extension (kext, or kernel extension) in the
 Security &amp;amp; Privacy preferences panel. I could not recall what, if any,
 software I had recently updated and was immediately suspicious.&lt;/p>
+&lt;p>&lt;img src="https://delu.co/images/macOs-system-software/combined.png" alt="System Extension Updated dialogue box and System Settings for Security and Privacy">&lt;/p>
 &lt;p>It was difficult to pin down any information since the kext was not
 specified in the pop-up or the preferences panel. I &lt;a href="https://discussions.apple.com/thread/252404518">found one post on Apple Discussions&lt;/a>
 that introduced me to the &lt;code>kmutil&lt;/code> program:&lt;/p>
@@ -18,7 +19,7 @@ that introduced me to the &lt;code>kmutil&lt;/code> program:&lt;/p>
 &lt;/ul>
 &lt;p>&amp;ldquo;Remote Virtual Interface&amp;rdquo; seems to be a tool used for &lt;a href="https://developer.apple.com/documentation/network/recording_a_packet_trace">Recording a Packet Trace&lt;/a> - I believe typically used while developing iOS apps.&lt;/p>
 &lt;p>I &lt;a href="https://apple.stackexchange.com/a/155168/178626">tracked down a second tool&lt;/a>, &lt;code>codesign&lt;/code>, that can
-authenticate the kext. If &lt;code>codesign&lt;/code> returns 0 status (i.e. success) the kext is valid:&lt;/p>
+authenticate the kext. If &lt;code>codesign&lt;/code> returns &lt;code>0&lt;/code> status (i.e. success) the kext is valid:&lt;/p>
 &lt;pre tabindex="0">&lt;code>❯ codesign -d --verbose=4 /Library/Apple/System/Library/Extensions/RemoteVirtualInterface.kext
 Executable=/Library/Apple/System/Library/Extensions/RemoteVirtualInterface.kext/Contents/MacOS/RemoteVirtualInterface
 Identifier=com.apple.nke.rvi
