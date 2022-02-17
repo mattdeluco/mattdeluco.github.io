@@ -13,6 +13,8 @@ approve a system extension (kext, or kernel extension) in the
 Security & Privacy preferences panel. I could not recall what, if any,
 software I had recently updated and was immediately suspicious.
 
+![System Extension Updated dialogue box and System Settings for Security and Privacy](/images/macOs-system-software/combined.png)
+
 It was difficult to pin down any information since the kext was not
 specified in the pop-up or the preferences panel. I [found one post on Apple Discussions](https://discussions.apple.com/thread/252404518)
 that introduced me to the `kmutil` program:
@@ -33,7 +35,7 @@ From the logs we can see a particular identifier with related kext file requires
 "Remote Virtual Interface" seems to be a tool used for [Recording a Packet Trace](https://developer.apple.com/documentation/network/recording_a_packet_trace) - I believe typically used while developing iOS apps.
 
 I [tracked down a second tool](https://apple.stackexchange.com/a/155168/178626), `codesign`, that can
-authenticate the kext. If `codesign` returns 0 status (i.e. success) the kext is valid:
+authenticate the kext. If `codesign` returns `0` status (i.e. success) the kext is valid:
 
 ```
 ❯ codesign -d --verbose=4 /Library/Apple/System/Library/Extensions/RemoteVirtualInterface.kext
