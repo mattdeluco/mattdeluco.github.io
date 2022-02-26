@@ -71,6 +71,12 @@ pygmentsStyle = "vs"
   #siteID = "XXXXX"
   #trackerScript = "//umami.example.com/umami.js"
 
+[params.favicon]
+  small = "images/favicon/favicon-16x16.png"
+  medium = "images/favicon/favicon-32x32.png"
+  large = "images/favicon/favicon-96x96.png"
+  safari = "images/favicon/safari-pinned-tab.svg"
+
 # Items in the top menu
 [menu]
   [[menu.main]]
