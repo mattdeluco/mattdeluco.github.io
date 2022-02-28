@@ -5,6 +5,7 @@
         <meta name="twitter:image" content="{{ .  | absURL }}"/>
     {{ else }}
         <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:image" content="{{ .Site.Params.ogImage | absURL }}"/>
     {{ end }}
 
     <!-- Reading Time -->
@@ -20,7 +21,7 @@
     <meta name="twitter:data2" value="{{ dateFormat "January 2, 2006" (default .Date (.PublishDate)) }}" />
 {{ else }}
     <meta name="twitter:card" content="summary"/>
-    {{ with .Site.Params.twittercardimage }}
+    {{ with .Site.Params.ogImage }}
         <meta name="twitter:image" content="{{ . | absURL }}"/>
     {{ end }}
 {{ end }}
@@ -29,7 +30,4 @@
 <meta name="twitter:title" content="{{ .Site.Title }}{{ if .IsPage }} &middot; {{ .Title }}{{ end }}"/>
 <meta name="twitter:description" content="{{ if .IsPage }}{{ .Description | default .Site.Params.authorBio }}{{ else }}{{ .Site.Params.authorBio }}{{ end }}"/>
 <meta name="twitter:site" content="@{{ .Site.Params.twitter }}"/>
-
-{{ with.Params.twitter }}
-    <meta name="twitter:creator" content="{{ . }}" />
-{{ end }}
+<meta name="twitter:creator" content="@{{ .Site.Params.twitter }}"/>

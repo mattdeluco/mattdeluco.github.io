@@ -34,8 +34,7 @@ pygmentsStyle = "vs"
 
   # Image in the homepage. You can setup a different image for social media
   cover = "images/IMG_4148.jpeg"
-  ogImage = "images/ogimage.jpg"
-  twittercardimage = "images/IMG_8068.png"
+  ogImage = "images/avatar.jpg"
 
   # Social media usernames
   github = "mattdeluco"
