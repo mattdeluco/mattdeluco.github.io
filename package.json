@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "hugo server --disableFastRender -D",
     "dev:example": "hugo server --verbose -s exampleSite --themesDir=../.. --disableFastRender",
-    "build": "NODE_ENV=production hugo --verbose --gc",
+    "build": "NODE_ENV=production hugo --verbose --gc --minify",
     "build:example": "NODE_ENV=production hugo --verbose --gc --minify -s exampleSite --themesDir=../..",
     "start": "hugo --gc"
   },
