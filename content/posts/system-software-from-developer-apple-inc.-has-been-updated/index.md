@@ -1,5 +1,7 @@
 ---
 title: "System software from developer Apple Inc. has been updated"
+description: "Use kmutil and codesign to track down and validate ambiguous macOS system updates."
+ogimage: "images/system-extension-updated-twitter.png"
 date: 2022-02-05T14:18:41-05:00
 hideComments: true
 tags: [
@@ -13,7 +15,7 @@ approve a system extension (kext, or kernel extension) in the
 Security & Privacy preferences panel. I could not recall what, if any,
 software I had recently updated and was immediately suspicious.
 
-![System Extension Updated dialogue box and System Settings for Security and Privacy](/images/macOs-system-software/combined.png)
+![System Extension Updated dialogue box and System Settings for Security and Privacy](images/combined.png)
 
 It was difficult to pin down any information since the kext was not
 specified in the pop-up or the preferences panel. I [found one post on Apple Discussions](https://discussions.apple.com/thread/252404518)
