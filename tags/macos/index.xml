@@ -2,7 +2,7 @@
 approve a system extension (kext, or kernel extension) in the
 Security &amp;amp; Privacy preferences panel. I could not recall what, if any,
 software I had recently updated and was immediately suspicious.&lt;/p>
-&lt;p>&lt;img src="https://delu.co/images/macOs-system-software/combined.png" alt="System Extension Updated dialogue box and System Settings for Security and Privacy">&lt;/p>
+&lt;p>&lt;img src="images/combined.png" alt="System Extension Updated dialogue box and System Settings for Security and Privacy">&lt;/p>
 &lt;p>It was difficult to pin down any information since the kext was not
 specified in the pop-up or the preferences panel. I &lt;a href="https://discussions.apple.com/thread/252404518">found one post on Apple Discussions&lt;/a>
 that introduced me to the &lt;code>kmutil&lt;/code> program:&lt;/p>
