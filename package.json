@@ -14,13 +14,13 @@
     "start": "hugo --gc"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.4.0",
+    "@tailwindcss/typography": "^0.4.1",
     "@tailwindcss/ui": "^0.7.2",
-    "autoprefixer": "^10.2.1",
-    "postcss": "^8.2.4",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.8",
     "postcss-cli": "^8.3.1",
-    "postcss-import": "^14.0.0",
-    "tailwindcss": "^2.0.3"
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^2.2.19"
   },
   "browserslist": [
     "last 1 version",
