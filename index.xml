@@ -49,21 +49,21 @@ UPDATE journal.journal j SET
 transaction_date=x.transaction_date,
 posted_date=x.posted_date,
 description=x.description
-FROM json_populate_recordset(null::journal.journal, in_json-&amp;gt;'data') as x
+FROM json_populate_recordset(null::journal.journal, in_json-&amp;gt;&amp;#39;data&amp;#39;) as x
 WHERE
-j.client_id = (in_json#&amp;gt;&amp;gt;'{context, client_id}')::BIGINT
+j.client_id = (in_json#&amp;gt;&amp;gt;&amp;#39;{context, client_id}&amp;#39;)::BIGINT
 AND j.id = x.id
 RETURNING j.id
 ) SELECT json_agg(r) FROM results r;
 $$ LANGUAGE sql;
-&lt;/code>&lt;/pre>&lt;p>Taking advantage of Postgres' &lt;a href="https://www.postgresql.org/docs/13/functions-json.html">JSON Functions and Operators&lt;/a>
+&lt;/code>&lt;/pre>&lt;p>Taking advantage of Postgres&amp;rsquo; &lt;a href="https://www.postgresql.org/docs/13/functions-json.html">JSON Functions and Operators&lt;/a>
 it&amp;rsquo;s possible to reference various properties of the JSON input. For example, &lt;code>in_json#&amp;gt;&amp;gt;'{context, client_id}'&lt;/code> extracts
 a value from this structure:&lt;/p>
 &lt;pre tabindex="0">&lt;code>{
-&amp;quot;context&amp;quot;: {
-&amp;quot;client_id&amp;quot;: 1234
+&amp;#34;context&amp;#34;: {
+&amp;#34;client_id&amp;#34;: 1234
 },
-&amp;quot;data&amp;quot;: [...]
+&amp;#34;data&amp;#34;: [...]
 }
 &lt;/code>&lt;/pre>&lt;p>While &lt;code>json_populate_recordset(null::journal.journal, in_json-&amp;gt;'data')&lt;/code> expands the data array
 property into a set of rows whose type is that of the journal schema&amp;rsquo;s journal table (so matching
@@ -250,7 +250,7 @@ the Northern Ontario Division (NOD) ski team.&lt;/p>
 was initially a great way to cross train for cycling during Canadian winters.
 Now it&amp;rsquo;s just another means of staying fit.&lt;/p>
 &lt;p>As a recreational skiier I try to occasionally find my way out west to bigger
-mountains. While I love being up to my eyeballs shreddin' the gnar, timing
+mountains. While I love being up to my eyeballs shreddin&amp;rsquo; the gnar, timing
 weather is impossible, so I find great pleasure in carving high-speed turns on
 nice corduroy.&lt;/p>
 &lt;ul>
