@@ -1,26 +1,45 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>macOS on Matt DeLuco</title><link>https://delu.co/tags/macos/</link><description>Recent content in macOS on Matt DeLuco</description><generator>Hugo -- gohugo.io</generator><language>en-ca</language><copyright>Unlicensed</copyright><lastBuildDate>Sat, 05 Feb 2022 14:18:41 -0500</lastBuildDate><atom:link href="https://delu.co/tags/macos/index.xml" rel="self" type="application/rss+xml"/><item><title>System software from developer Apple Inc. has been updated</title><link>https://delu.co/posts/system-software-from-developer-apple-inc.-has-been-updated/</link><pubDate>Sat, 05 Feb 2022 14:18:41 -0500</pubDate><guid>https://delu.co/posts/system-software-from-developer-apple-inc.-has-been-updated/</guid><description>&lt;p>I was recently surprised by a pop-up dialogue in macOS asking me to
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>macOS on Matt DeLuco</title>
+    <link>https://delu.co/tags/macos/</link>
+    <description>Recent content in macOS on Matt DeLuco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <copyright>Unlicensed</copyright>
+    <lastBuildDate>Sat, 05 Feb 2022 14:18:41 -0500</lastBuildDate>
+    
+        <atom:link href="https://delu.co/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>System software from developer Apple Inc. has been updated</title>
+      <link>https://delu.co/posts/system-software-from-developer-apple-inc.-has-been-updated/</link>
+      <pubDate>Sat, 05 Feb 2022 14:18:41 -0500</pubDate>
+      
+      <guid>https://delu.co/posts/system-software-from-developer-apple-inc.-has-been-updated/</guid>
+      <description>&lt;p&gt;I was recently surprised by a pop-up dialogue in macOS asking me to
 approve a system extension (kext, or kernel extension) in the
 Security &amp;amp; Privacy preferences panel. I could not recall what, if any,
-software I had recently updated and was immediately suspicious.&lt;/p>
-&lt;p>&lt;img src="images/combined.png" alt="System Extension Updated dialogue box and System Settings for Security and Privacy">&lt;/p>
-&lt;p>It was difficult to pin down any information since the kext was not
-specified in the pop-up or the preferences panel. I &lt;a href="https://discussions.apple.com/thread/252404518">found one post on Apple Discussions&lt;/a>
-that introduced me to the &lt;code>kmutil&lt;/code> program:&lt;/p>
-&lt;pre tabindex="0">&lt;code>$ kmutil log show
+software I had recently updated and was immediately suspicious.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/combined.png&#34; alt=&#34;System Extension Updated dialogue box and System Settings for Security and Privacy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It was difficult to pin down any information since the kext was not
+specified in the pop-up or the preferences panel. I &lt;a href=&#34;https://discussions.apple.com/thread/252404518&#34;&gt;found one post on Apple Discussions&lt;/a&gt;
+that introduced me to the &lt;code&gt;kmutil&lt;/code&gt; program:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ kmutil log show
 ...
-2022-02-04 14:35:49.437506-0500 0x3d0908 Default 0x0 102 0 kernelmanagerd: [com.apple.kernelmanagerd.logging:LoadRequestResolution] gathering approvals for:
-/Library/Apple/System/Library/Extensions/RemoteVirtualInterface.kext
-2022-02-04 14:35:49.501178-0500 0x3d0908 Error 0x0 102 0 kernelmanagerd: library rebuild request failed: Extension with identifiers com.apple.nke.rvi not approved to load. Please approve using System Preferences.
+2022-02-04 14:35:49.437506-0500 0x3d0908   Default     0x0                  102    0    kernelmanagerd: [com.apple.kernelmanagerd.logging:LoadRequestResolution] gathering approvals for: 
+	/Library/Apple/System/Library/Extensions/RemoteVirtualInterface.kext
+2022-02-04 14:35:49.501178-0500 0x3d0908   Error       0x0                  102    0    kernelmanagerd: library rebuild request failed: Extension with identifiers com.apple.nke.rvi not approved to load. Please approve using System Preferences.
 ...
-&lt;/code>&lt;/pre>&lt;p>From the logs we can see a particular identifier with related kext file requires approval:&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>com.apple.nke.rvi&lt;/code>&lt;/li>
-&lt;li>&lt;code>.../Extensions/RemoteVirtualInterface.kext&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;p>&amp;ldquo;Remote Virtual Interface&amp;rdquo; seems to be a tool used for &lt;a href="https://developer.apple.com/documentation/network/recording_a_packet_trace">Recording a Packet Trace&lt;/a> - I believe typically used while developing iOS apps.&lt;/p>
-&lt;p>I &lt;a href="https://apple.stackexchange.com/a/155168/178626">tracked down a second tool&lt;/a>, &lt;code>codesign&lt;/code>, that can
-authenticate the kext. If &lt;code>codesign&lt;/code> returns &lt;code>0&lt;/code> status (i.e. success) the kext is valid:&lt;/p>
-&lt;pre tabindex="0">&lt;code>❯ codesign -d --verbose=4 /Library/Apple/System/Library/Extensions/RemoteVirtualInterface.kext
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;From the logs we can see a particular identifier with related kext file requires approval:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;com.apple.nke.rvi&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.../Extensions/RemoteVirtualInterface.kext&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;ldquo;Remote Virtual Interface&amp;rdquo; seems to be a tool used for &lt;a href=&#34;https://developer.apple.com/documentation/network/recording_a_packet_trace&#34;&gt;Recording a Packet Trace&lt;/a&gt; - I believe typically used while developing iOS apps.&lt;/p&gt;
+&lt;p&gt;I &lt;a href=&#34;https://apple.stackexchange.com/a/155168/178626&#34;&gt;tracked down a second tool&lt;/a&gt;, &lt;code&gt;codesign&lt;/code&gt;, that can
+authenticate the kext. If &lt;code&gt;codesign&lt;/code&gt; returns &lt;code&gt;0&lt;/code&gt; status (i.e. success) the kext is valid:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;❯ codesign -d --verbose=4 /Library/Apple/System/Library/Extensions/RemoteVirtualInterface.kext
 Executable=/Library/Apple/System/Library/Extensions/RemoteVirtualInterface.kext/Contents/MacOS/RemoteVirtualInterface
 Identifier=com.apple.nke.rvi
 Format=bundle with Mach-O universal (x86_64 arm64e arm64)
@@ -44,13 +63,19 @@ Info.plist entries=23
 TeamIdentifier=not set
 Sealed Resources version=2 rules=13 files=1
 Internal requirements count=1 size=68
+
 ❯ echo $?
 0
-&lt;/code>&lt;/pre>&lt;p>From the &lt;code>codesign&lt;/code> manual:&lt;/p>
-&lt;blockquote>
-&lt;p>codesign exits 0 if all operations succeed. This indicates that all codes were signed, or all codes verified properly as requested. If a signing or verification operation fails, the exit code is 1. Exit code 2 indicates invalid arguments or parameters. Exit code 3 indicates that during verification, all path(s) were properly signed but at least one of them failed to satisfy the requirement specified with the -R option.&lt;/p>
-&lt;/blockquote>
-&lt;p>If you&amp;rsquo;re ever surprised by a dialogue asking for approval of a system extension,
-I hope these tools can help you track down and authenticate the software in question.&lt;/p>
-&lt;p>Of course, after all the work to track this down, while writing this post my Macbook Air
-crashed and after reboot my explicit approval no longer seemed to be required!&lt;/p></description></item></channel></rss>
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;From the &lt;code&gt;codesign&lt;/code&gt; manual:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;codesign exits 0 if all operations succeed. This indicates that all codes were signed, or all codes verified properly as requested. If a signing or verification operation fails, the exit code is 1. Exit code 2 indicates invalid arguments or parameters. Exit code 3 indicates that during verification, all path(s) were properly signed but at least one of them failed to satisfy the requirement specified with the -R option.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If you&amp;rsquo;re ever surprised by a dialogue asking for approval of a system extension,
+I hope these tools can help you track down and authenticate the software in question.&lt;/p&gt;
+&lt;p&gt;Of course, after all the work to track this down, while writing this post my Macbook Air
+crashed and after reboot my explicit approval no longer seemed to be required!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
