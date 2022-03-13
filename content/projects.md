@@ -134,4 +134,5 @@ The following are a list of similar applications to serve as reference and inspi
 - [Billi](https://billi.app) 🇨🇦
 - [Lunch Money](https://lunchmoney.app)
 - [Mint.com](https://mint.intuit.com)
+- [Rehive.com](https://rehive.com)
 - [Wealthica](https://wealthica.com) 🇨🇦
