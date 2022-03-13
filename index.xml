@@ -107,8 +107,9 @@ this project, but the project has been fully &amp;ldquo;ported&amp;rdquo; to the
 &lt;li>&lt;a href="https://wealthica.com">Wealthica&lt;/a> 🇨🇦&lt;/li>
 &lt;/ul></description></item><item><title>What I'm Doing Now</title><link>https://delu.co/now/</link><pubDate>Sun, 16 May 2021 22:44:20 -0400</pubDate><guid>https://delu.co/now/</guid><description>&lt;h2 id="career">Career&lt;/h2>
 &lt;p>I work at &lt;a href="https://connected.io">Connected&lt;/a> as an Engineering Manager with four great reports.&lt;/p>
-&lt;p>My current allocation is leading a web and mobile Engineering team of 8 on a very challenging project in the hospitality industry:&lt;/p>
+&lt;p>My most recent allocation was leading an Engineering team of 8 launching a web and mobile app in the hospitality industry:&lt;/p>
 &lt;ul>
+&lt;li>Web launched in Dec. 2021, mobile apps published in early 2022&lt;/li>
 &lt;li>Backend: AWS Amplify, GraphQL, Lambda (Javascript), DynamoDB&lt;/li>
 &lt;li>Web: React (Typescript)&lt;/li>
 &lt;li>Mobile: React-Native (Javascript)&lt;/li>
@@ -131,8 +132,8 @@ financial goals.&lt;/p>
 &lt;/ul></description></item><item><title>Career</title><link>https://delu.co/career/</link><pubDate>Mon, 15 Mar 2021 21:45:11 -0400</pubDate><guid>https://delu.co/career/</guid><description>&lt;p>My current role is Manager, Engineering at &lt;a href="https://www.connected.io">Connected&lt;/a>.&lt;/p>
 &lt;p>I have four reports with whom I meet regularly to discuss career objectives,
 performance, engineering guild activities, and other personal interests.&lt;/p>
-&lt;p>I also lead a team of 8 engineers on a challenging web/mobile project in the
-hospitality industry.&lt;/p>
+&lt;p>My most recent allocation was leading an Engineering team of 8 launching a web
+and mobile app in the hospitality industry.&lt;/p>
 &lt;h2 id="education">Education&lt;/h2>
 &lt;ul>
 &lt;li>University of Ottawa&lt;/li>
@@ -141,7 +142,7 @@ hospitality industry.&lt;/p>
 &lt;h2 id="employment">Employment&lt;/h2>
 &lt;h3 id="connected">Connected&lt;/h3>
 &lt;ul>
-&lt;li>Completed 11 projects for seven clients, delivering five complete software products - several internal tools, and one mobile product launch in the U.S. on one of the world’s largest social platforms&lt;/li>
+&lt;li>Completed 11 projects for seven clients, delivering six complete software products: several internal tools, one mobile product launch in the U.S. on one of the world’s largest social platforms, and one web/mobile application in Toronto&lt;/li>
 &lt;/ul>
 &lt;h4 id="manager-engineering-sept-2019---present">Manager, Engineering (Sept. 2019 - Present)&lt;/h4>
 &lt;ul>
@@ -149,13 +150,16 @@ hospitality industry.&lt;/p>
 &lt;li>Regular 1-on-1s&lt;/li>
 &lt;li>Quarterly performance and objective management&lt;/li>
 &lt;li>Career management (interests, skill, project allocations)&lt;/li>
+&lt;li>Conducting interviews of potential Software Engineering candidates&lt;/li>
+&lt;li>Training Connected Software Engineers in our pairing interview process&lt;/li>
 &lt;/ul>
 &lt;h4 id="senior-software-engineer-may-2018---present">Senior Software Engineer (May 2018 - Present)&lt;/h4>
-&lt;h5 id="project-i-may-2021---present">Project I (May 2021 - Present)&lt;/h5>
+&lt;h5 id="project-i-april-2021---dec-2021">Project I (April 2021 - Dec. 2021)&lt;/h5>
 &lt;ul>
-&lt;li>Currently leading a team of 8 engineers building a web/mobile app&lt;/li>
+&lt;li>Launched a web and mobile application in hospitality&lt;/li>
+&lt;li>Lead a team of 8 engineers building a web/mobile app&lt;/li>
 &lt;li>React / Typescript (web), React Native / Javascript (iOS/Android), AWS Amplify / Javascript (backend)&lt;/li>
-&lt;li>Tasks include encouraging best practices, system architecture, delegation, working directly with client on technical and project planning, working as a team with Connected project manager and engagement lead on task planning and technical feasibility&lt;/li>
+&lt;li>Tasks include encouraging best practices, system architecture, delegation, working directly with client on technical and project planning, working as a team with Connected project manager and engagement lead on scoping, story writing, task planning, and technical feasibility&lt;/li>
 &lt;/ul>
 &lt;h5 id="project-h-nov-2020---feb-2021">Project H (Nov. 2020 - Feb. 2021)&lt;/h5>
 &lt;ul>
@@ -191,15 +195,47 @@ hospitality industry.&lt;/p>
 &lt;/ul>
 &lt;h3 id="points-international">Points International&lt;/h3>
 &lt;h4 id="senior-loyalty-platform-and-developer-specialist-apr-2017---may-2018">Senior Loyalty Platform and Developer Specialist (Apr. 2017 - May 2018)&lt;/h4>
+&lt;ul>
+&lt;li>Lead a small team working directly with partners to build integrations between their SOAP and REST APIs and Points&amp;rsquo; Loyalty Commerce Platform (LCP)&lt;/li>
+&lt;li>Technical integration planning and pre-sales with partners and developers&lt;/li>
+&lt;li>Gather requirements from loyalty partners and internal stakeholders&lt;/li>
+&lt;li>Develop team procedures and approaches to integration with platform&lt;/li>
+&lt;/ul>
 &lt;h4 id="project-manager-and-scrum-master-nov-2015---apr-2017">Project Manager and Scrum Master (Nov. 2015 - Apr. 2017)&lt;/h4>
+&lt;ul>
+&lt;li>Managing three scrum teams using agile methodologies and JIRA tools&lt;/li>
+&lt;li>Managing scope, capacity, velocity, and project estimates&lt;/li>
+&lt;li>Liaising between engineering, product, delivery, and finance&lt;/li>
+&lt;/ul>
 &lt;h4 id="platform-developer-nov-2014---nov-2015">Platform Developer (Nov. 2014 - Nov. 2015)&lt;/h4>
+&lt;ul>
+&lt;li>Built Python REST endpoints for Loyalty Commerce Platform micro-services architecture, including unit and integration tests&lt;/li>
+&lt;li>Built CouchDB integrations and migrations&lt;/li>
+&lt;/ul>
 &lt;h3 id="lightspeed-retail">Lightspeed Retail&lt;/h3>
 &lt;h4 id="software-developer-mar-2013---mar-2014">Software Developer (Mar. 2013 - Mar. 2014)&lt;/h4>
+&lt;ul>
+&lt;li>Built REST API endpoints for the LightSpeed Pro backend using Python, SQLAlchemy, and PostgreSQL, supporting OS X / iOS retail clients&lt;/li>
+&lt;li>Built integration between LightSpeed Cloud and Quality Bicycle Products&amp;rsquo; catalogue REST API, using PHP and MySQL, facilitating ETL from QBP - Full-stack unit tested refactoring using the Yii PHP framework and MySQL&lt;/li>
+&lt;/ul>
 &lt;h3 id="magor-corp">Magor Corp.&lt;/h3>
 &lt;h4 id="software-developer-jul-2010---mar-2013">Software Developer (Jul. 2010 - Mar. 2013)&lt;/h4>
+&lt;ul>
+&lt;li>Developed the Skype audio / video integration with Magor’s HDWorkplace using SkypeKit C++ API to build a Freeswitch module in C&lt;/li>
+&lt;li>Developed Python-based test automation software using HDWorkplace REST API, tested Skype integration using Sikuli to automate Skype GUI&lt;/li>
+&lt;li>Developed a software update system for Magor’s hardware appliance&lt;/li>
+&lt;/ul>
 &lt;h3 id="university-of-ottawa">University of Ottawa&lt;/h3>
 &lt;h4 id="software-developer-student-it-services-nov-2009---jul-2010">Software Developer, Student IT Services (Nov. 2009 - Jul. 2010)&lt;/h4>
-&lt;h4 id="web-developer-uottawa-library-jun-2006---oct-2008">Web Developer, uOttawa Library (Jun. 2006 - Oct. 2008)&lt;/h4></description></item><item><title>About</title><link>https://delu.co/about/</link><pubDate>Sun, 14 Mar 2021 20:50:03 -0400</pubDate><guid>https://delu.co/about/</guid><description>&lt;p>Loving husband and father, skier, cyclist, software engineering (manager)&lt;/p>
+&lt;ul>
+&lt;li>Designed, developed, deployed C# ASP.Net/MSSQL e-commerce app for Faculty of Education with course inventory, shopping cart, payment integration, and registration processing&lt;/li>
+&lt;/ul>
+&lt;h4 id="web-developer-uottawa-library-jun-2006---oct-2008">Web Developer, uOttawa Library (Jun. 2006 - Oct. 2008)&lt;/h4>
+&lt;ul>
+&lt;li>Redesigned core Library website and 13 branch sites with new University templates (CSS/JS/HTML), rebuilt PHP and MySQL backend on Linux servers, retrained web librarians&lt;/li>
+&lt;li>Customized and deployed Java-based DSpace electronic theses repository, trained library staff&lt;/li>
+&lt;li>XML and XSLT used for ETL to load DSpace with uOttawa’s entire collection of theses&lt;/li>
+&lt;/ul></description></item><item><title>About</title><link>https://delu.co/about/</link><pubDate>Sun, 14 Mar 2021 20:50:03 -0400</pubDate><guid>https://delu.co/about/</guid><description>&lt;p>Loving husband and father, skier, cyclist, software engineering (manager)&lt;/p>
 &lt;p>I grew up in Sault Ste. Marie, Ontario, and have since lived in Ottawa,
 Brisbane (Australia, briefly), Port Moody, BC (also briefly), and now reside in
 Toronto.&lt;/p>
