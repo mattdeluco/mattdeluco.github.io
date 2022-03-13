@@ -9,7 +9,8 @@ hideTweetButton: true
 ## Career
 I work at [Connected](https://connected.io) as an Engineering Manager with four great reports.
 
-My current allocation is leading a web and mobile Engineering team of 8 on a very challenging project in the hospitality industry:
+My most recent allocation was leading an Engineering team of 8 launching a web and mobile app in the hospitality industry:
+- Web launched in Dec. 2021, mobile apps published in early 2022
 - Backend: AWS Amplify, GraphQL, Lambda (Javascript), DynamoDB
 - Web: React (Typescript)
 - Mobile: React-Native (Javascript)
