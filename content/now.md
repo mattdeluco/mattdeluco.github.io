@@ -27,6 +27,6 @@ financial goals.
 ## Home
 Being a husband and father, and loving every second of it.
 
-- Moutain biking, road cycling, track cycling
+- Mountain biking, road cycling, track cycling
 - Alpine, classic, and skate skiing
-- Mechanical interests include bicycle and auto maintenace
+- Mechanical interests include bicycle and auto maintenance

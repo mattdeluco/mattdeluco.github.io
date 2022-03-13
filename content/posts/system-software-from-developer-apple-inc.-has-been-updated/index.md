@@ -75,5 +75,5 @@ From the `codesign` manual:
 If you're ever surprised by a dialogue asking for approval of a system extension,
 I hope these tools can help you track down and authenticate the software in question.
 
-Of course, after all the work to track this down, while writing this post my Macbook Air
+Of course, after all the work to track this down, while writing this post my MacBook Air
 crashed and after reboot my explicit approval no longer seemed to be required!
