@@ -15,8 +15,8 @@
   <meta property="og:url" content="{{ .Permalink }}" />
   <!-- Image tags -->
   {{ with .Params.ogImage }}
-    <meta itemprop="image" content="{{ print .Permalink . }}" />
-    <meta property="og:image" content="{{ print .Permalink . }}" />
+    <meta itemprop="image" content="{{ print $.Permalink . }}" />
+    <meta property="og:image" content="{{ print $.Permalink . }}" />
   {{ else }}
     {{ with .Site.Params.ogImage }}
       <meta itemprop="image" content="{{ . | absURL }}" />
