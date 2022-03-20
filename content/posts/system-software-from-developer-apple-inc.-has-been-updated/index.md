@@ -1,7 +1,7 @@
 ---
 title: "System software from developer Apple Inc. has been updated"
 description: "Use kmutil and codesign to track down and validate ambiguous macOS system updates."
-ogimage: "images/system-extension-updated-twitter.png"
+ogimage: "images/security-and-privacy-twitter.png"
 date: 2022-02-05T14:18:41-05:00
 hideComments: true
 tags: [
