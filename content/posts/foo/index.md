@@ -1,7 +1,7 @@
 ---
 title: "This is a test"
 description: "Use kmutil and codesign to track down and validate ambiguous macOS system updates."
-ogimage: "images/system-extension-updated-twitter.png"
+ogimage: "images/1078160.jpg"
 date: 2022-03-20T10:18:41-05:00
 hideComments: true
 tags: [
