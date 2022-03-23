@@ -7,29 +7,12 @@ hideSuggestions: true
 hideTweetButton: true
 ---
 
+> Forged in the fire & ice of Northern Ontario, this wayward soul has lived vicariously through himself in such endeavours as downhill ski racing, triathlons, and road, track, and mountain cycling. Having seen enough of the world to be indifferent to the rest, his heart was captured by a laugh, a smile, and a soul he could not fathom living without.
+
 Loving husband and father, skier, cyclist, software engineering (manager)
 
 I grew up in Sault Ste. Marie, Ontario, and have since lived in Ottawa,
-Brisbane (Australia, briefly), Port Moody, BC (also briefly), and now reside in
-Toronto.
-
-## Education
-
-- University of Ottawa
-- B. Sc. Computer Science, Magna Cum Laude
-
-## Career
-
-I am currently employed as a Manager, Engineering and Senior Software Engineer
-at [Connected](https://www.connected.io).
-
-Please visit my [Career page](/career) for a complete employment listing.
-
-## Projects
-
-Currently: 🚧 Personal Financial Planning SaaS Project 🚧
-
-Please visit my [Projects page](/projects)!
+Port Moody, BC (briefly), and now reside in Toronto.
 
 ## Interests
 
