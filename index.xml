@@ -1,4 +1,158 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Matt DeLuco</title><link>https://delu.co/</link><description>Recent content on Matt DeLuco</description><generator>Hugo -- gohugo.io</generator><language>en-ca</language><copyright>Unlicensed</copyright><lastBuildDate>Sat, 05 Feb 2022 14:18:41 -0500</lastBuildDate><atom:link href="https://delu.co/index.xml" rel="self" type="application/rss+xml"/><item><title>Posts</title><link>https://delu.co/posts/</link><pubDate>Sat, 05 Feb 2022 14:18:41 -0500</pubDate><guid>https://delu.co/posts/</guid><description/></item><item><title>Projects</title><link>https://delu.co/projects/</link><pubDate>Fri, 08 Oct 2021 08:38:00 -0400</pubDate><guid>https://delu.co/projects/</guid><description>&lt;p>🚧 Personal Financial Planning SaaS Project 🚧&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Matt DeLuco</title><link>https://delu.co/</link><description>Recent content on Matt DeLuco</description><generator>Hugo -- gohugo.io</generator><language>en-ca</language><copyright>Unlicensed</copyright><lastBuildDate>Sat, 05 Feb 2022 14:18:41 -0500</lastBuildDate><atom:link href="https://delu.co/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://delu.co/about/</link><pubDate>Tue, 22 Mar 2022 22:24:18 -0400</pubDate><guid>https://delu.co/about/</guid><description>&lt;blockquote>
+&lt;p>Forged in the fire &amp;amp; ice of Northern Ontario, this wayward soul has lived vicariously through himself in such endeavours as downhill ski racing, triathlons, and road, track, and mountain cycling. Having seen enough of the world to be indifferent to the rest, his heart was captured by a laugh, a smile, and a soul he could not fathom living without.&lt;/p>
+&lt;/blockquote>
+&lt;p>Loving husband and father, skier, cyclist, software engineering (manager)&lt;/p>
+&lt;p>I grew up in Sault Ste. Marie, Ontario, and have since lived in Ottawa,
+Port Moody, BC (briefly), and now reside in Toronto.&lt;/p>
+&lt;h2 id="interests">Interests&lt;/h2>
+&lt;h3 id="cycling">Cycling&lt;/h3>
+&lt;p>For a period of my life I dedicated a considerable amount of time and energy to
+competitive road cycling, at one point moving to Port Moody, BC to train
+year-round on the road and track.&lt;/p>
+&lt;p>I cut my teeth on road cycling among the incredible road racing community in
+Ottawa, Ontario. I regularly attended the Tuesday night criteriums, Thursday
+night time-trials on Aviation Parkway, and Saturday morning Carp loops, along
+with many, many, many loops in Gatineau Park.&lt;/p>
+&lt;p>It was living in Port Moody that I discovered track cycling, not
+far away at the Burnaby Velodrome where I worked as a mechanic in exchange for
+track access, training, and racing. My move to Toronto many years later
+coincided with the opening of the &lt;a href="https://www.milton.ca/en/arts-and-recreation/mattamy-national-cycling-centre.aspx">Mattamy National Cycling Centre&lt;/a>
+for the &lt;a href="https://en.wikipedia.org/wiki/2015_Pan_American_Games">2015 Pan-Am Games&lt;/a>
+(where I volunteered as a coordinator on the field-of-play) - the MNCC is an
+incredible facility. I trained and raced at the MNCC intensely for around 3
+years, specializing as a sprinter (flying 200, match sprint, kierin, kilo) - an
+incredible outlet and absolutely thrilling experience.&lt;/p>
+&lt;p>With far less time to maintain my former fitness, I have since become a more
+recreational cyclist and have rediscovered mountain biking. Most of my time on
+two wheels is now spent in Toronto&amp;rsquo;s Don Valley and on the trails of
+Mont-Tremblant, QC.&lt;/p>
+&lt;ul>
+&lt;li>Former Cat 2 competitive road cyclist&lt;/li>
+&lt;li>Former Masters track cyclist&lt;/li>
+&lt;li>Current recreational road and mountain biker&lt;/li>
+&lt;/ul>
+&lt;h3 id="skiing">Skiing&lt;/h3>
+&lt;p>I grew up alpine ski racing with the Sault Ski Runners (aka Searchmont Ski
+Runners) north of the Sault at &lt;a href="http://www.searchmont.com">Searchmont Ski Resort&lt;/a>. I spent many years racing
+across Northern Ontario and ultimately spent a year racing at the FIS level with
+the Northern Ontario Division (NOD) ski team.&lt;/p>
+&lt;p>I&amp;rsquo;ve since picked up cross country skiing (skating, occasionally classic) that
+was initially a great way to cross train for cycling during Canadian winters.
+Now it&amp;rsquo;s just another means of staying fit.&lt;/p>
+&lt;p>As a recreational skier I try to occasionally find my way out west to bigger
+mountains. While I love being up to my eyeballs shreddin&amp;rsquo; the gnar, timing
+weather is impossible, so I find great pleasure in carving high-speed turns on
+nice corduroy.&lt;/p>
+&lt;ul>
+&lt;li>Former FIS Northern Ontario Division (NOD) alpine racer&lt;/li>
+&lt;li>Current member of the &lt;a href="https://ntsc.ca">North Toronto Ski Club&lt;/a> (NTSC)&lt;/li>
+&lt;/ul></description></item><item><title>Career</title><link>https://delu.co/career/</link><pubDate>Tue, 22 Mar 2022 22:24:18 -0400</pubDate><guid>https://delu.co/career/</guid><description>&lt;p>My current role is Manager, Engineering at &lt;a href="https://www.connected.io">Connected&lt;/a>.&lt;/p>
+&lt;p>I have four reports with whom I meet regularly to discuss career objectives,
+performance, engineering guild activities, and other personal interests.&lt;/p>
+&lt;p>My most recent allocation was leading an Engineering team of 8 launching a web
+and mobile app in the hospitality industry.&lt;/p>
+&lt;h2 id="education">Education&lt;/h2>
+&lt;ul>
+&lt;li>University of Ottawa&lt;/li>
+&lt;li>B. Sc. Computer Science, Magna Cum Laude (2007)&lt;/li>
+&lt;/ul>
+&lt;h2 id="employment">Employment&lt;/h2>
+&lt;h3 id="connected">Connected&lt;/h3>
+&lt;ul>
+&lt;li>Completed 11 projects for seven clients, delivering six complete software products: several internal tools, one mobile product launch in the U.S. on one of the world’s largest social platforms, and one web/mobile application in Toronto&lt;/li>
+&lt;/ul>
+&lt;h4 id="manager-engineering-sept-2019---present">Manager, Engineering (Sept. 2019 - Present)&lt;/h4>
+&lt;ul>
+&lt;li>Four to six reports&lt;/li>
+&lt;li>Regular 1-on-1s&lt;/li>
+&lt;li>Quarterly performance and objective management&lt;/li>
+&lt;li>Career management (interests, skill, project allocations)&lt;/li>
+&lt;li>Conducting interviews of potential Software Engineering candidates&lt;/li>
+&lt;li>Training Connected Software Engineers in our pairing interview process&lt;/li>
+&lt;/ul>
+&lt;h4 id="senior-software-engineer-may-2018---present">Senior Software Engineer (May 2018 - Present)&lt;/h4>
+&lt;h5 id="project-i-april-2021---dec-2021">Project I (April 2021 - Dec. 2021)&lt;/h5>
+&lt;ul>
+&lt;li>Launched a web and mobile application in hospitality&lt;/li>
+&lt;li>Lead a team of 8 engineers building a web/mobile app&lt;/li>
+&lt;li>React / Typescript (web), React Native / Javascript (iOS/Android), AWS Amplify / Javascript (backend)&lt;/li>
+&lt;li>Tasks include encouraging best practices, system architecture, delegation, working directly with client on technical and project planning, working as a team with Connected project manager and engagement lead on scoping, story writing, task planning, and technical feasibility&lt;/li>
+&lt;/ul>
+&lt;h5 id="project-h-nov-2020---feb-2021">Project H (Nov. 2020 - Feb. 2021)&lt;/h5>
+&lt;ul>
+&lt;li>Paired on development of financial integration between Zuora RevPro and Salesforce&lt;/li>
+&lt;li>Used Celigo and Google Cloud Platform to build ETL infrastructure&lt;/li>
+&lt;/ul>
+&lt;h5 id="project-g-jan-2020---sept-2020">Project G (Jan. 2020 - Sept. 2020)&lt;/h5>
+&lt;ul>
+&lt;li>iOS (Swift/ObjC) mobile development&lt;/li>
+&lt;li>Delivering mobile iOS app features for a major Canadian financial institution&lt;/li>
+&lt;/ul>
+&lt;h5 id="projects-e-f-aug---sept-2019">Projects E-F (Aug. - Sept. 2019)&lt;/h5>
+&lt;ul>
+&lt;li>Two projects for different teams within the same client&lt;/li>
+&lt;li>Full-stack desktop web development in React/Hack building interfaces to machine-learning data sets&lt;/li>
+&lt;/ul>
+&lt;h5 id="project-d-jun-2019">Project D (Jun. 2019)&lt;/h5>
+&lt;ul>
+&lt;li>Software Architect – front-end and back-end architecture proposal for client proof-of-concept application in retail space&lt;/li>
+&lt;/ul>
+&lt;h5 id="project-c-fall-2018---summer-2019">Project C (Fall 2018 - Summer 2019)&lt;/h5>
+&lt;ul>
+&lt;li>Engineering Team Lead for four engineers consulting on product development&lt;/li>
+&lt;li>Coordinating with client (SF Bay Area) and third-party design team (Austin, TX)&lt;/li>
+&lt;li>Full-stack web with emphasis on frontend mobile development (iOS/Android) using internal client tech and Hack language&lt;/li>
+&lt;li>Development of new health-outcome focused mobile app&lt;/li>
+&lt;/ul>
+&lt;h5 id="projects-a-b-sprint-fall-2018">Projects A, B (Sprint-Fall 2018)&lt;/h5>
+&lt;ul>
+&lt;li>Two projects for different teams within the same client and product line&lt;/li>
+&lt;li>Full-stack web building a registration/administration portal for internal/external hardware device test users&lt;/li>
+&lt;li>Built internal log tool for low-level Android engineers of same device&lt;/li>
+&lt;/ul>
+&lt;h3 id="points-international">Points International&lt;/h3>
+&lt;h4 id="senior-loyalty-platform-and-developer-specialist-apr-2017---may-2018">Senior Loyalty Platform and Developer Specialist (Apr. 2017 - May 2018)&lt;/h4>
+&lt;ul>
+&lt;li>Lead a small team working directly with partners to build integrations between their SOAP and REST APIs and Points&amp;rsquo; Loyalty Commerce Platform (LCP)&lt;/li>
+&lt;li>Technical integration planning and pre-sales with partners and developers&lt;/li>
+&lt;li>Gather requirements from loyalty partners and internal stakeholders&lt;/li>
+&lt;li>Develop team procedures and approaches to integration with platform&lt;/li>
+&lt;/ul>
+&lt;h4 id="project-manager-and-scrum-master-nov-2015---apr-2017">Project Manager and Scrum Master (Nov. 2015 - Apr. 2017)&lt;/h4>
+&lt;ul>
+&lt;li>Managing three scrum teams using agile methodologies and JIRA tools&lt;/li>
+&lt;li>Managing scope, capacity, velocity, and project estimates&lt;/li>
+&lt;li>Liaising between engineering, product, delivery, and finance&lt;/li>
+&lt;/ul>
+&lt;h4 id="platform-developer-nov-2014---nov-2015">Platform Developer (Nov. 2014 - Nov. 2015)&lt;/h4>
+&lt;ul>
+&lt;li>Built Python REST endpoints for Loyalty Commerce Platform micro-services architecture, including unit and integration tests&lt;/li>
+&lt;li>Built CouchDB integrations and migrations&lt;/li>
+&lt;/ul>
+&lt;h3 id="lightspeed-retail">Lightspeed Retail&lt;/h3>
+&lt;h4 id="software-developer-mar-2013---mar-2014">Software Developer (Mar. 2013 - Mar. 2014)&lt;/h4>
+&lt;ul>
+&lt;li>Built REST API endpoints for the LightSpeed Pro backend using Python, SQLAlchemy, and PostgreSQL, supporting OS X / iOS retail clients&lt;/li>
+&lt;li>Built integration between LightSpeed Cloud and Quality Bicycle Products&amp;rsquo; catalogue REST API, using PHP and MySQL, facilitating ETL from QBP - Full-stack unit tested refactoring using the Yii PHP framework and MySQL&lt;/li>
+&lt;/ul>
+&lt;h3 id="magor-corp">Magor Corp.&lt;/h3>
+&lt;h4 id="software-developer-jul-2010---mar-2013">Software Developer (Jul. 2010 - Mar. 2013)&lt;/h4>
+&lt;ul>
+&lt;li>Developed the Skype audio / video integration with Magor’s HDWorkplace using SkypeKit C++ API to build a Freeswitch module in C&lt;/li>
+&lt;li>Developed Python-based test automation software using HDWorkplace REST API, tested Skype integration using Sikuli to automate Skype GUI&lt;/li>
+&lt;li>Developed a software update system for Magor’s hardware appliance&lt;/li>
+&lt;/ul>
+&lt;h3 id="university-of-ottawa">University of Ottawa&lt;/h3>
+&lt;h4 id="software-developer-student-it-services-nov-2009---jul-2010">Software Developer, Student IT Services (Nov. 2009 - Jul. 2010)&lt;/h4>
+&lt;ul>
+&lt;li>Designed, developed, deployed C# ASP.Net/MSSQL e-commerce app for Faculty of Education with course inventory, shopping cart, payment integration, and registration processing&lt;/li>
+&lt;/ul>
+&lt;h4 id="web-developer-uottawa-library-jun-2006---oct-2008">Web Developer, uOttawa Library (Jun. 2006 - Oct. 2008)&lt;/h4>
+&lt;ul>
+&lt;li>Redesigned core Library website and 13 branch sites with new University templates (CSS/JS/HTML), rebuilt PHP and MySQL backend on Linux servers, retrained web librarians&lt;/li>
+&lt;li>Customized and deployed Java-based DSpace electronic theses repository, trained library staff&lt;/li>
+&lt;li>XML and XSLT used for ETL to load DSpace with uOttawa’s entire collection of theses&lt;/li>
+&lt;/ul></description></item><item><title>Projects</title><link>https://delu.co/projects/</link><pubDate>Tue, 22 Mar 2022 22:24:18 -0400</pubDate><guid>https://delu.co/projects/</guid><description>&lt;p>🚧 Personal Financial Planning SaaS Project 🚧&lt;/p>
 &lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">🚧 Personal Financial Planning SaaS Project 🚧&lt;br>&lt;br>This project started with a spreadsheet Christmas 2011. I have 11 years of meticulously organized personal financial data; excel just doesn&amp;#39;t cut it anymore.&lt;br>&lt;br>This isn&amp;#39;t the first such app, probably not the last, but it&amp;#39;s mine. 👇&lt;/p>&amp;mdash; Matt DeLuco (@MattDeLuco) &lt;a href="https://twitter.com/MattDeLuco/status/1381814633951072257?ref_src=twsrc%5Etfw">April 13, 2021&lt;/a>&lt;/blockquote>
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
 &lt;p>Follow me and my long-lived &lt;a href="https://twitter.com/MattDeLuco/status/1381814633951072257">Twitter Thread&lt;/a>
@@ -105,7 +259,7 @@ this project, but the project has been fully &amp;ldquo;ported&amp;rdquo; to the
 &lt;li>&lt;a href="https://mint.intuit.com">Mint.com&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://rehive.com">Rehive.com&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://wealthica.com">Wealthica&lt;/a> 🇨🇦&lt;/li>
-&lt;/ul></description></item><item><title>What I'm Doing Now</title><link>https://delu.co/now/</link><pubDate>Sun, 16 May 2021 22:44:20 -0400</pubDate><guid>https://delu.co/now/</guid><description>&lt;h2 id="career">Career&lt;/h2>
+&lt;/ul></description></item><item><title>What I'm Doing Now</title><link>https://delu.co/now/</link><pubDate>Tue, 22 Mar 2022 22:24:18 -0400</pubDate><guid>https://delu.co/now/</guid><description>&lt;h2 id="career">Career&lt;/h2>
 &lt;p>I work at &lt;a href="https://connected.io">Connected&lt;/a> as an Engineering Manager with four great reports.&lt;/p>
 &lt;p>My most recent allocation was leading an Engineering team of 8 launching a web and mobile app in the hospitality industry:&lt;/p>
 &lt;ul>
@@ -129,158 +283,4 @@ financial goals.&lt;/p>
 &lt;li>Mountain biking, road cycling, track cycling&lt;/li>
 &lt;li>Alpine, classic, and skate skiing&lt;/li>
 &lt;li>Mechanical interests include bicycle and auto maintenance&lt;/li>
-&lt;/ul></description></item><item><title>Career</title><link>https://delu.co/career/</link><pubDate>Mon, 15 Mar 2021 21:45:11 -0400</pubDate><guid>https://delu.co/career/</guid><description>&lt;p>My current role is Manager, Engineering at &lt;a href="https://www.connected.io">Connected&lt;/a>.&lt;/p>
-&lt;p>I have four reports with whom I meet regularly to discuss career objectives,
-performance, engineering guild activities, and other personal interests.&lt;/p>
-&lt;p>My most recent allocation was leading an Engineering team of 8 launching a web
-and mobile app in the hospitality industry.&lt;/p>
-&lt;h2 id="education">Education&lt;/h2>
-&lt;ul>
-&lt;li>University of Ottawa&lt;/li>
-&lt;li>B. Sc. Computer Science, Magna Cum Laude (2007)&lt;/li>
-&lt;/ul>
-&lt;h2 id="employment">Employment&lt;/h2>
-&lt;h3 id="connected">Connected&lt;/h3>
-&lt;ul>
-&lt;li>Completed 11 projects for seven clients, delivering six complete software products: several internal tools, one mobile product launch in the U.S. on one of the world’s largest social platforms, and one web/mobile application in Toronto&lt;/li>
-&lt;/ul>
-&lt;h4 id="manager-engineering-sept-2019---present">Manager, Engineering (Sept. 2019 - Present)&lt;/h4>
-&lt;ul>
-&lt;li>Four to six reports&lt;/li>
-&lt;li>Regular 1-on-1s&lt;/li>
-&lt;li>Quarterly performance and objective management&lt;/li>
-&lt;li>Career management (interests, skill, project allocations)&lt;/li>
-&lt;li>Conducting interviews of potential Software Engineering candidates&lt;/li>
-&lt;li>Training Connected Software Engineers in our pairing interview process&lt;/li>
-&lt;/ul>
-&lt;h4 id="senior-software-engineer-may-2018---present">Senior Software Engineer (May 2018 - Present)&lt;/h4>
-&lt;h5 id="project-i-april-2021---dec-2021">Project I (April 2021 - Dec. 2021)&lt;/h5>
-&lt;ul>
-&lt;li>Launched a web and mobile application in hospitality&lt;/li>
-&lt;li>Lead a team of 8 engineers building a web/mobile app&lt;/li>
-&lt;li>React / Typescript (web), React Native / Javascript (iOS/Android), AWS Amplify / Javascript (backend)&lt;/li>
-&lt;li>Tasks include encouraging best practices, system architecture, delegation, working directly with client on technical and project planning, working as a team with Connected project manager and engagement lead on scoping, story writing, task planning, and technical feasibility&lt;/li>
-&lt;/ul>
-&lt;h5 id="project-h-nov-2020---feb-2021">Project H (Nov. 2020 - Feb. 2021)&lt;/h5>
-&lt;ul>
-&lt;li>Paired on development of financial integration between Zuora RevPro and Salesforce&lt;/li>
-&lt;li>Used Celigo and Google Cloud Platform to build ETL infrastructure&lt;/li>
-&lt;/ul>
-&lt;h5 id="project-g-jan-2020---sept-2020">Project G (Jan. 2020 - Sept. 2020)&lt;/h5>
-&lt;ul>
-&lt;li>iOS (Swift/ObjC) mobile development&lt;/li>
-&lt;li>Delivering mobile iOS app features for a major Canadian financial institution&lt;/li>
-&lt;/ul>
-&lt;h5 id="projects-e-f-aug---sept-2019">Projects E-F (Aug. - Sept. 2019)&lt;/h5>
-&lt;ul>
-&lt;li>Two projects for different teams within the same client&lt;/li>
-&lt;li>Full-stack desktop web development in React/Hack building interfaces to machine-learning data sets&lt;/li>
-&lt;/ul>
-&lt;h5 id="project-d-jun-2019">Project D (Jun. 2019)&lt;/h5>
-&lt;ul>
-&lt;li>Software Architect – front-end and back-end architecture proposal for client proof-of-concept application in retail space&lt;/li>
-&lt;/ul>
-&lt;h5 id="project-c-fall-2018---summer-2019">Project C (Fall 2018 - Summer 2019)&lt;/h5>
-&lt;ul>
-&lt;li>Engineering Team Lead for four engineers consulting on product development&lt;/li>
-&lt;li>Coordinating with client (SF Bay Area) and third-party design team (Austin, TX)&lt;/li>
-&lt;li>Full-stack web with emphasis on frontend mobile development (iOS/Android) using internal client tech and Hack language&lt;/li>
-&lt;li>Development of new health-outcome focused mobile app&lt;/li>
-&lt;/ul>
-&lt;h5 id="projects-a-b-sprint-fall-2018">Projects A, B (Sprint-Fall 2018)&lt;/h5>
-&lt;ul>
-&lt;li>Two projects for different teams within the same client and product line&lt;/li>
-&lt;li>Full-stack web building a registration/administration portal for internal/external hardware device test users&lt;/li>
-&lt;li>Built internal log tool for low-level Android engineers of same device&lt;/li>
-&lt;/ul>
-&lt;h3 id="points-international">Points International&lt;/h3>
-&lt;h4 id="senior-loyalty-platform-and-developer-specialist-apr-2017---may-2018">Senior Loyalty Platform and Developer Specialist (Apr. 2017 - May 2018)&lt;/h4>
-&lt;ul>
-&lt;li>Lead a small team working directly with partners to build integrations between their SOAP and REST APIs and Points&amp;rsquo; Loyalty Commerce Platform (LCP)&lt;/li>
-&lt;li>Technical integration planning and pre-sales with partners and developers&lt;/li>
-&lt;li>Gather requirements from loyalty partners and internal stakeholders&lt;/li>
-&lt;li>Develop team procedures and approaches to integration with platform&lt;/li>
-&lt;/ul>
-&lt;h4 id="project-manager-and-scrum-master-nov-2015---apr-2017">Project Manager and Scrum Master (Nov. 2015 - Apr. 2017)&lt;/h4>
-&lt;ul>
-&lt;li>Managing three scrum teams using agile methodologies and JIRA tools&lt;/li>
-&lt;li>Managing scope, capacity, velocity, and project estimates&lt;/li>
-&lt;li>Liaising between engineering, product, delivery, and finance&lt;/li>
-&lt;/ul>
-&lt;h4 id="platform-developer-nov-2014---nov-2015">Platform Developer (Nov. 2014 - Nov. 2015)&lt;/h4>
-&lt;ul>
-&lt;li>Built Python REST endpoints for Loyalty Commerce Platform micro-services architecture, including unit and integration tests&lt;/li>
-&lt;li>Built CouchDB integrations and migrations&lt;/li>
-&lt;/ul>
-&lt;h3 id="lightspeed-retail">Lightspeed Retail&lt;/h3>
-&lt;h4 id="software-developer-mar-2013---mar-2014">Software Developer (Mar. 2013 - Mar. 2014)&lt;/h4>
-&lt;ul>
-&lt;li>Built REST API endpoints for the LightSpeed Pro backend using Python, SQLAlchemy, and PostgreSQL, supporting OS X / iOS retail clients&lt;/li>
-&lt;li>Built integration between LightSpeed Cloud and Quality Bicycle Products&amp;rsquo; catalogue REST API, using PHP and MySQL, facilitating ETL from QBP - Full-stack unit tested refactoring using the Yii PHP framework and MySQL&lt;/li>
-&lt;/ul>
-&lt;h3 id="magor-corp">Magor Corp.&lt;/h3>
-&lt;h4 id="software-developer-jul-2010---mar-2013">Software Developer (Jul. 2010 - Mar. 2013)&lt;/h4>
-&lt;ul>
-&lt;li>Developed the Skype audio / video integration with Magor’s HDWorkplace using SkypeKit C++ API to build a Freeswitch module in C&lt;/li>
-&lt;li>Developed Python-based test automation software using HDWorkplace REST API, tested Skype integration using Sikuli to automate Skype GUI&lt;/li>
-&lt;li>Developed a software update system for Magor’s hardware appliance&lt;/li>
-&lt;/ul>
-&lt;h3 id="university-of-ottawa">University of Ottawa&lt;/h3>
-&lt;h4 id="software-developer-student-it-services-nov-2009---jul-2010">Software Developer, Student IT Services (Nov. 2009 - Jul. 2010)&lt;/h4>
-&lt;ul>
-&lt;li>Designed, developed, deployed C# ASP.Net/MSSQL e-commerce app for Faculty of Education with course inventory, shopping cart, payment integration, and registration processing&lt;/li>
-&lt;/ul>
-&lt;h4 id="web-developer-uottawa-library-jun-2006---oct-2008">Web Developer, uOttawa Library (Jun. 2006 - Oct. 2008)&lt;/h4>
-&lt;ul>
-&lt;li>Redesigned core Library website and 13 branch sites with new University templates (CSS/JS/HTML), rebuilt PHP and MySQL backend on Linux servers, retrained web librarians&lt;/li>
-&lt;li>Customized and deployed Java-based DSpace electronic theses repository, trained library staff&lt;/li>
-&lt;li>XML and XSLT used for ETL to load DSpace with uOttawa’s entire collection of theses&lt;/li>
-&lt;/ul></description></item><item><title>About</title><link>https://delu.co/about/</link><pubDate>Sun, 14 Mar 2021 20:50:03 -0400</pubDate><guid>https://delu.co/about/</guid><description>&lt;blockquote>
-&lt;p>Forged in the fire &amp;amp; ice of Northern Ontario, this wayward soul has lived vicariously through himself in such endeavours as downhill ski racing, triathlons, and road, track, and mountain cycling. Having seen enough of the world to be indifferent to the rest, his heart was captured by a laugh, a smile, and a soul he could not fathom living without.&lt;/p>
-&lt;/blockquote>
-&lt;p>Loving husband and father, skier, cyclist, software engineering (manager)&lt;/p>
-&lt;p>I grew up in Sault Ste. Marie, Ontario, and have since lived in Ottawa,
-Port Moody, BC (briefly), and now reside in Toronto.&lt;/p>
-&lt;h2 id="interests">Interests&lt;/h2>
-&lt;h3 id="cycling">Cycling&lt;/h3>
-&lt;p>For a period of my life I dedicated a considerable amount of time and energy to
-competitive road cycling, at one point moving to Port Moody, BC to train
-year-round on the road and track.&lt;/p>
-&lt;p>I cut my teeth on road cycling among the incredible road racing community in
-Ottawa, Ontario. I regularly attended the Tuesday night criteriums, Thursday
-night time-trials on Aviation Parkway, and Saturday morning Carp loops, along
-with many, many, many loops in Gatineau Park.&lt;/p>
-&lt;p>It was living in Port Moody that I discovered track cycling, not
-far away at the Burnaby Velodrome where I worked as a mechanic in exchange for
-track access, training, and racing. My move to Toronto many years later
-coincided with the opening of the &lt;a href="https://www.milton.ca/en/arts-and-recreation/mattamy-national-cycling-centre.aspx">Mattamy National Cycling Centre&lt;/a>
-for the &lt;a href="https://en.wikipedia.org/wiki/2015_Pan_American_Games">2015 Pan-Am Games&lt;/a>
-(where I volunteered as a coordinator on the field-of-play) - the MNCC is an
-incredible facility. I trained and raced at the MNCC intensely for around 3
-years, specializing as a sprinter (flying 200, match sprint, kierin, kilo) - an
-incredible outlet and absolutely thrilling experience.&lt;/p>
-&lt;p>With far less time to maintain my former fitness, I have since become a more
-recreational cyclist and have rediscovered mountain biking. Most of my time on
-two wheels is now spent in Toronto&amp;rsquo;s Don Valley and on the trails of
-Mont-Tremblant, QC.&lt;/p>
-&lt;ul>
-&lt;li>Former Cat 2 competitive road cyclist&lt;/li>
-&lt;li>Former Masters track cyclist&lt;/li>
-&lt;li>Current recreational road and mountain biker&lt;/li>
-&lt;/ul>
-&lt;h3 id="skiing">Skiing&lt;/h3>
-&lt;p>I grew up alpine ski racing with the Sault Ski Runners (aka Searchmont Ski
-Runners) north of the Sault at &lt;a href="http://www.searchmont.com">Searchmont Ski Resort&lt;/a>. I spent many years racing
-across Northern Ontario and ultimately spent a year racing at the FIS level with
-the Northern Ontario Division (NOD) ski team.&lt;/p>
-&lt;p>I&amp;rsquo;ve since picked up cross country skiing (skating, occasionally classic) that
-was initially a great way to cross train for cycling during Canadian winters.
-Now it&amp;rsquo;s just another means of staying fit.&lt;/p>
-&lt;p>As a recreational skier I try to occasionally find my way out west to bigger
-mountains. While I love being up to my eyeballs shreddin&amp;rsquo; the gnar, timing
-weather is impossible, so I find great pleasure in carving high-speed turns on
-nice corduroy.&lt;/p>
-&lt;ul>
-&lt;li>Former FIS Northern Ontario Division (NOD) alpine racer&lt;/li>
-&lt;li>Current member of the &lt;a href="https://ntsc.ca">North Toronto Ski Club&lt;/a> (NTSC)&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;/ul></description></item><item><title>Posts</title><link>https://delu.co/posts/</link><pubDate>Sat, 05 Feb 2022 14:18:41 -0500</pubDate><guid>https://delu.co/posts/</guid><description/></item></channel></rss>
