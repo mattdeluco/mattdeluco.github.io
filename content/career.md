@@ -16,14 +16,17 @@ and mobile app in the hospitality industry.
 
 ## Education
 
-- University of Ottawa
-- B. Sc. Computer Science, Magna Cum Laude (2007)
+### University of Ottawa
+- B. Sc. with Honours in Computer Science, Magna Cum Laude (2007)
 
 ## Employment
 
 ### Connected
+> Connected is an end-to-end product development services firm.
 
-- Completed 11 projects for seven clients, delivering six complete software products: several internal tools, one mobile product launch in the U.S. on one of the world’s largest social platforms, and one web/mobile application in Toronto
+Visit [Connected.io](https://connected.io)
+
+- Completed 11 projects for seven clients, delivering six complete software products: several internal tools, one mobile product launch in the U.S. on one of the world’s largest social platforms, and one web & mobile application in Toronto
 
 #### Manager, Engineering (Sept. 2019 - Present)
 - Four to six reports
