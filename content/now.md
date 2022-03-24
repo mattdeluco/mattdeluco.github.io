@@ -6,14 +6,12 @@ hideSuggestions: true
 hideTweetButton: true
 ---
 
-## Career
-I work at [Connected](https://connected.io) as an Engineering Manager with four great reports.
+## Home
+Being a husband and father, and loving every second of it.
 
-My most recent allocation was leading an Engineering team of 8 launching a web and mobile app in the hospitality industry:
-- Web launched in Dec. 2021, mobile apps published in early 2022
-- Backend: AWS Amplify, GraphQL, Lambda (Javascript), DynamoDB
-- Web: React (Typescript)
-- Mobile: React-Native (Javascript)
+- Mountain biking, road cycling, track cycling
+- Alpine, classic, and skate skiing
+- Mechanical interests include bicycle and auto maintenance
 
 ## Project
 🚧 Personal Financial Planning SaaS Project 🚧
@@ -25,9 +23,11 @@ financial goals.
 - [Twitter Thread](https://twitter.com/MattDeLuco/status/1381814633951072257)
 - [Projects](/projects)
 
-## Home
-Being a husband and father, and loving every second of it.
+## Career
+I work at [Connected](https://connected.io) as an Engineering Manager with four great reports.
 
-- Mountain biking, road cycling, track cycling
-- Alpine, classic, and skate skiing
-- Mechanical interests include bicycle and auto maintenance
+My most recent allocation was leading an Engineering team of 8 launching a web and mobile app in the hospitality industry:
+- Web launched in Dec. 2021, mobile apps published in early 2022
+- Backend: AWS Amplify, GraphQL, Lambda (Javascript), DynamoDB
+- Web: React (Typescript)
+- Mobile: React-Native (Javascript)
