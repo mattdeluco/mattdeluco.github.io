@@ -53,7 +53,7 @@ pygmentsStyle = "vs"
   # Avatar (shown in the homepage)
   avatar = "images/avatar.jpg"
   # Bio is shown in the end of posts
-  authorBio = "Matt has broad interests in Comp. Sci. & Software Engineering, working with his hands, and varieties of skiing and cycling."
+  authorBio = "Matt is a Sr. Manager, Engineering with broad interests in Software Engineering, skiing, & cycling."
 
   # Integrations
   googleAnalyticsGA4 = "G-1RF1DE0RP0"
