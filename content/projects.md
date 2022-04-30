@@ -133,6 +133,7 @@ this project, but the project has been fully "ported" to the tool.
 The following are a list of similar applications to serve as reference and inspiration.
 - [Billi](https://billi.app) 🇨🇦
 - [Lunch Money](https://lunchmoney.app)
+- [Maybe](https://maybe.co)
 - [Mint.com](https://mint.intuit.com)
 - [Payd App](https://www.paydapp.ca) 🇨🇦
 - [Rehive.com](https://rehive.com)
