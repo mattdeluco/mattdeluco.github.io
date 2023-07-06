@@ -6,13 +6,13 @@ hideSuggestions: true
 hideTweetButton: true
 ---
 
-My current role is Manager, Engineering at [Connected](https://www.connected.io).
+My current role is Sr. Manager, Engineering at [Docker](https://docker.com).
 
-I have four reports with whom I meet regularly to discuss career objectives,
-performance, engineering guild activities, and other personal interests.
+I manage a team of five engineers with whom I meet regularly to discuss career objectives,
+performance, engineering activities, and other personal interests.
 
-My most recent allocation was leading an Engineering team of 8 launching a web
-and mobile app in the hospitality industry.
+We work together with our Product Manager, Technical Project Manager, and Product Designer
+to grow the billing and payments infrastructure.
 
 ## Education
 
@@ -21,14 +21,27 @@ and mobile app in the hospitality industry.
 
 ## Employment
 
-### Connected
+### Docker 🐳
+> Docker is a platform designed to help developers build, share, and run modern applications.
+> We handle the tedious setup, so you can focus on the code.
+
+Visit [Docker.com](https://docker.com)
+
+#### Sr. Manager, Engineering - Billing (Apr. 2022 - Present)
+- Helped build out the Billing engineering team, established in early 2022
+- Manage five intermediate through staff engineers
+- Work with internal and external stakeholders and cross-functional engineering teams
+- Developed and track team metrics and OKRs, using data to drive sprint-to-sprint process improvements
+- Guided the team in launching four initiatives over the last year while putting in place plans for more
+
+### Connected (now Thoughtworks Canada)
 > Connected is an end-to-end product development services firm.
 
 Visit [Connected.io](https://connected.io)
 
 - Completed 11 projects for seven clients, delivering six complete software products: several internal tools, one mobile product launch in the U.S. on one of the world’s largest social platforms, and one web & mobile application in Toronto
 
-#### Manager, Engineering (Sept. 2019 - Present)
+#### Manager, Engineering (Sept. 2019 - Apr. 2022)
 - Four to six reports
 - Regular 1-on-1s
 - Quarterly performance and objective management
