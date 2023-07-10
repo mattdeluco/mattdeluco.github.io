@@ -269,7 +269,8 @@ this project, but the project has been fully &amp;ldquo;ported&amp;rdquo; to the
 &lt;li>Vuejs&lt;/li>
 &lt;li>TODO&lt;/li>
 &lt;/ul>
-&lt;h2 id="competition">Competition&lt;/h2>
+&lt;h2 id="other-references">Other References&lt;/h2>
+&lt;h3 id="competition">Competition&lt;/h3>
 &lt;p>The following are a list of similar applications to serve as reference and inspiration.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://billi.app">Billi&lt;/a> 🇨🇦&lt;/li>
@@ -279,6 +280,16 @@ this project, but the project has been fully &amp;ldquo;ported&amp;rdquo; to the
 &lt;li>&lt;a href="https://www.paydapp.ca">Payd App&lt;/a> 🇨🇦&lt;/li>
 &lt;li>&lt;a href="https://rehive.com">Rehive.com&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://wealthica.com">Wealthica&lt;/a> 🇨🇦&lt;/li>
+&lt;li>&lt;a href="https://tigerbeetle.com/">TigerBeetle&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.twisp.com/">Twisp&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://journalize.io/">Journalize&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="documentation">Documentation&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://startupwin.kelsus.com/p/9-fintech-engineering-mistakes">Nine fintech engineering mistakes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://owasp.org/www-project-top-ten/">OWASP Top Ten&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.journalize.io/posts/an-elegant-db-schema-for-double-entry-accounting/">Journalize Blog - An Elegant DB Schema for Double-Entry Accounting&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.twisp.com/docs/accounting-core/ledgers-in-twisp">Twisp Docs - Ledgers in Twisp&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>What I'm Doing Now</title><link>https://delu.co/now/</link><pubDate>Tue, 22 Mar 2022 22:24:18 -0400</pubDate><guid>https://delu.co/now/</guid><description>&lt;h2 id="home">Home&lt;/h2>
 &lt;p>Being a husband and father, and loving every second of it.&lt;/p>
 &lt;ul>
