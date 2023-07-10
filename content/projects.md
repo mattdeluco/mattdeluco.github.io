@@ -129,7 +129,9 @@ this project, but the project has been fully "ported" to the tool.
 - Vuejs
 - TODO
 
-## Competition
+## Other References
+
+### Competition
 The following are a list of similar applications to serve as reference and inspiration.
 - [Billi](https://billi.app) 🇨🇦
 - [Lunch Money](https://lunchmoney.app)
@@ -138,3 +140,12 @@ The following are a list of similar applications to serve as reference and inspi
 - [Payd App](https://www.paydapp.ca) 🇨🇦
 - [Rehive.com](https://rehive.com)
 - [Wealthica](https://wealthica.com) 🇨🇦
+- [TigerBeetle](https://tigerbeetle.com/)
+- [Twisp](https://www.twisp.com/)
+- [Journalize](https://journalize.io/)
+
+### Documentation
+- [Nine fintech engineering mistakes](https://startupwin.kelsus.com/p/9-fintech-engineering-mistakes)
+- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)
+- [Journalize Blog - An Elegant DB Schema for Double-Entry Accounting](https://blog.journalize.io/posts/an-elegant-db-schema-for-double-entry-accounting/)
+- [Twisp Docs - Ledgers in Twisp](https://www.twisp.com/docs/accounting-core/ledgers-in-twisp)
