@@ -143,6 +143,7 @@ The following are a list of similar applications to serve as reference and inspi
 - [TigerBeetle](https://tigerbeetle.com/)
 - [Twisp](https://www.twisp.com/)
 - [Journalize](https://journalize.io/)
+- [Skwad](https://skwad.app)
 
 ### Documentation
 - [Nine fintech engineering mistakes](https://startupwin.kelsus.com/p/9-fintech-engineering-mistakes)
