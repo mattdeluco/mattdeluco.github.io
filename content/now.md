@@ -12,6 +12,7 @@ hideTweetButton: true
 I am seeking new roles in Engineering Management!
 
 [Please visit my LinkedIn profile](https://www.linkedin.com/in/mattdeluco/) or
+[download my resume](/files/Matt\ DeLuco\ -\ Resume.pdf) and
 [reach out directly](mailto:matt@deluco.net) if you're hiring!
 
 ### Sr. Manager, Engineering - Docker Inc.
