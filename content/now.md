@@ -1,26 +1,35 @@
 ---
 title: "What I'm Doing Now"
-date: 2022-03-22T22:24:18-0400
+date: 2024-11-15T10:33:00-0400
 hideComments: true
 hideSuggestions: true
 hideTweetButton: true
 ---
 
+## Career
+### #opentowork
+I am seeking new roles in Engineering Management! [Please visit my
+LinkedIn profile](https://www.linkedin.com/in/mattdeluco/), or
+[reach out directly](mailto:matt@deluco.net) if you're hiring!
+
+### Sr. Manager, Engineering - Docker Inc.
+Most recently (May 2022 - Oct 2024) I was working as
+Senior Manager, Engineering (Billing) at [Docker](https://www.docker.com).
+
+I managed a team of 8 engineers from Intermediate to Principal, and worked
+with a Product Manager, Technical Project Manager, and Designer.
+
+We managed the systems that sustained over $30MM annually in SaaS subscriptions
+and over $100MM anually in inside-sales deals. Our projects included migrating
+those subscriptions to a new Billing provider (Stripe) and integrating new products
+and acquisitions to take Docker from single to multi-product.
+
 ## Home
 Being a husband and father, and loving every second of it.
 
-- Mountain biking, road cycling, track cycling
+- Mountain biking, road cycling
 - Alpine, classic, and skate skiing
 - Mechanical interests include bicycle and auto maintenance
-
-## Career
-I work at [Connected](https://connected.io) as an Engineering Manager with four great reports.
-
-My most recent allocation was leading an Engineering team of 8 launching a web and mobile app in the hospitality industry:
-- Web launched in Dec. 2021, mobile apps published in early 2022
-- Backend: AWS Amplify, GraphQL, Lambda (Javascript), DynamoDB
-- Web: React (Typescript)
-- Mobile: React-Native (Javascript)
 
 ## Project
 🚧 Personal Financial Planning SaaS Project 🚧
