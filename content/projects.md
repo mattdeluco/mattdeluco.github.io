@@ -133,19 +133,20 @@ this project, but the project has been fully "ported" to the tool.
 
 ### Competition
 The following are a list of similar applications to serve as reference and inspiration.
-- [Billi](https://billi.app) 🇨🇦
+- [Billi 🇨🇦](https://billi.app)
 - [Lunch Money](https://lunchmoney.app)
 - [Maybe](https://maybe.co)
 - [Mint.com](https://mint.intuit.com)
-- [Payd App](https://www.paydapp.ca) 🇨🇦
+- [Payd App 🇨🇦](https://www.paydapp.ca)
 - [Rehive.com](https://rehive.com)
-- [Wealthica](https://wealthica.com) 🇨🇦
+- [Wealthica 🇨🇦](https://wealthica.com)
 - [TigerBeetle](https://tigerbeetle.com/)
 - [Twisp](https://www.twisp.com/)
 - [Journalize](https://journalize.io/)
 - [Skwad](https://skwad.app)
 - [Ramp](https://ramp.com)
 - [Mercury](https://mercury.com)
+- [Honeybook 🇺🇸](https://www.honeybook.com/)
 
 ### Documentation
 - [Nine fintech engineering mistakes](https://startupwin.kelsus.com/p/9-fintech-engineering-mistakes)
