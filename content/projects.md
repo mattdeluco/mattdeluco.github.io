@@ -147,6 +147,8 @@ The following are a list of similar applications to serve as reference and inspi
 - [Ramp](https://ramp.com)
 - [Mercury](https://mercury.com)
 - [Honeybook 🇺🇸](https://www.honeybook.com/)
+- [YNAB (You Need A Budget)](https://www.ynab.com/)
+- [YNAB Alternatives (Blog post)](https://robberger.com/ynab-alternatives/)
 
 ### Documentation
 - [Nine fintech engineering mistakes](https://startupwin.kelsus.com/p/9-fintech-engineering-mistakes)
