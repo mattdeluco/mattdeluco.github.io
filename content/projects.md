@@ -152,6 +152,7 @@ The following are a list of similar applications to serve as reference and inspi
 - [Neontra](https://neontra.com/)
 - [Neo Financial 🇨🇦](https://neofinancial.com/)
 - [Actual Budget](https://actualbudget.org/)
+- [PocketGuard](https://pocketguard.com/)
 
 ### Documentation
 - [Nine fintech engineering mistakes](https://startupwin.kelsus.com/p/9-fintech-engineering-mistakes)
