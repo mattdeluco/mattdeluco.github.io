@@ -134,6 +134,7 @@ this project, but the project has been fully "ported" to the tool.
 ### Competition
 The following are a list of similar applications to serve as reference and inspiration.
 - [Billi 🇨🇦](https://billi.app)
+- [Billi (Alt)](https://billi.webflow.io/about)
 - [Lunch Money](https://lunchmoney.app)
 - [Maybe](https://maybe.co)
 - [Mint.com](https://mint.intuit.com)
